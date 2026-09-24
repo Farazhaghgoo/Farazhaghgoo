@@ -1,77 +1,119 @@
-![Faraz Haghgoo — software, product, interfaces and systems. Turin, Italy.](assets/hero.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
+  <img src="assets/hero.svg" width="100%" alt="Faraz Haghgoo — software engineer and product builder. Complex systems. Clear interfaces. Based in Turin, building at inRebus.">
+</picture>
 
-I’m **Faraz Haghgoo**, a developer and product builder based in **Turin, Italy**. I build digital products and complex interfaces where engineering, interaction and experimentation meet.
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/typing-static.svg">
+    <img src="assets/typing.svg" width="92%" alt="Engineering interfaces. Building products. From industrial systems to independent ideas. Based in Turin. Always building.">
+  </picture>
+</p>
 
-Currently working on professional software at **inRebus**. My public repositories are one part of that work.
+<p align="center">
+  <a href="https://github.com/Farazhaghgoo"><img src="assets/github.svg" height="34" alt="GitHub — Farazhaghgoo"></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252"><img src="assets/linkedin.svg" height="34" alt="Connect on LinkedIn"></a>
+</p>
 
-[GitHub ↗](https://github.com/Farazhaghgoo) · [LinkedIn ↗](https://www.linkedin.com/in/faraz-haghgoo-6b4a64252)
+<p align="center">
+  I’m <strong>Faraz</strong>, a developer and product builder in <strong>Turin, Italy</strong>.<br>
+  Industrial interfaces by day. Independent experiments whenever an idea won’t leave me alone.<br>
+  I care about the system underneath, the interaction on top, and the details in between.
+</p>
 
-![01 — Professional work](assets/section-work.svg)
+<p align="center">
+  <a href="#professional-work">Professional work</a> &nbsp; / &nbsp;
+  <a href="#independent-projects">Projects</a> &nbsp; / &nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
+  <a href="#public-activity">Activity</a>
+</p>
 
-![Industrial HMI + Digital Twin — inRebus. Private / professional.](assets/professional-hmi.svg)
+<a id="professional-work"></a>
+<img src="assets/section-professional.svg" width="100%" alt="01 — Building at inRebus">
 
-### Industrial HMI / Digital Twin
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="assets/work-hmi.svg" width="100%" alt="Industrial HMI and Digital Twin — private professional work at inRebus. Conceptual artwork.">
+<h3>Industrial HMI / Digital Twin</h3>
+<p>Making complex industrial systems understandable through human–machine interfaces and technical visualization.</p>
+<p><strong>Interface engineering · Interaction · Systems</strong></p>
+<p><sub>inRebus · Professional · Private repository</sub></p>
+</td>
+<td width="50%" valign="top">
+<img src="assets/work-inrebus.svg" width="100%" alt="inRebus digital experience — private professional work. Conceptual artwork.">
+<h3>inRebus / Digital experience</h3>
+<p>Developing the company’s web experience through responsive interfaces, visual identity and purposeful motion.</p>
+<p><strong>React · TypeScript · Vite · GSAP</strong></p>
+<p><sub>inRebus · Professional · Private repository</sub></p>
+</td>
+</tr>
+</table>
 
-**inRebus · Professional · Private repository**
+<sub>Professional covers are original abstract artwork. Implementation details and source code remain private.</sub>
 
-Working on an industrial human–machine interface and digital-twin environment: making complex systems understandable through clear interfaces and technical visualization.
+<a id="independent-projects"></a>
+<img src="assets/section-projects.svg" width="100%" alt="02 — Independent experiments">
 
-**Interface engineering · Interaction · Systems thinking**
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Farazhaghgoo/whomst"><img src="assets/whomst.svg" width="100%" alt="Whomst — personality engine. Open repository."></a>
+<p>A playful personality engine. Vector-based scoring, shareable results and dynamic social images.</p>
+<p><sub>Next.js · TypeScript · PostgreSQL · Prisma · Redis</sub></p>
+<a href="https://github.com/Farazhaghgoo/whomst"><strong>Explore Whomst ↗</strong></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Farazhaghgoo/financeApp"><img src="assets/ledger.svg" width="100%" alt="Ledger — manual-first finance. Open financeApp repository."></a>
+<p>Money tracking for real life: cash spending, peer transfers and optimistic, offline-tolerant writes.</p>
+<p><sub>React Native · Expo · Supabase · TanStack Query</sub></p>
+<a href="https://github.com/Farazhaghgoo/financeApp"><strong>Explore Ledger ↗</strong></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Farazhaghgoo/VeloCity"><img src="assets/velocity.svg" width="100%" alt="VeloCity — data, trust and motion. Open repository."></a>
+<p>A data-verification landing experience with expressive motion, responsive UI and a working waitlist backend.</p>
+<p><sub>Next.js · TypeScript · GSAP · Framer Motion</sub></p>
+<a href="https://github.com/Farazhaghgoo/VeloCity"><strong>Explore VeloCity ↗</strong></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Farazhaghgoo/CVai"><img src="assets/cvai.svg" width="100%" alt="CVai — AI career interface. Open repository."></a>
+<p>A career-interface prototype exploring CV feedback, job matching and insights through mock-data interactions.</p>
+<p><sub>React · Vite · Tailwind CSS · SVG</sub></p>
+<a href="https://github.com/Farazhaghgoo/CVai"><strong>Explore CVai ↗</strong></a>
+</td>
+</tr>
+</table>
 
-![inRebus digital experience — web, motion and interaction. Private / professional.](assets/professional-inrebus.svg)
+<a id="toolkit"></a>
+<img src="assets/section-toolkit.svg" width="100%" alt="03 — My toolkit">
 
-### inRebus / Digital experience
+<p align="center">
+  <img src="assets/skill-icons.svg" width="88%" alt="React, TypeScript, Next.js, Tailwind CSS, PostgreSQL, Supabase, Prisma, Redis, Vite, Git, GitHub and Vitest">
+</p>
 
-**inRebus · Professional · Private repository**
+<p align="center">
+  <strong>Web</strong> / React + Next.js &nbsp; · &nbsp; <strong>Mobile</strong> / React Native + Expo<br>
+  <strong>Data</strong> / PostgreSQL + Supabase &nbsp; · &nbsp; <strong>Motion</strong> / GSAP + Framer Motion
+</p>
 
-Developing and redesigning the company’s web experience, connecting visual identity, responsive interfaces and purposeful motion.
+<details>
+<summary><strong>What keeps me curious</strong></summary>
+<p>AI-native products, human–computer interaction, product architecture, and the moment a strange idea becomes something useful.</p>
+<p><strong>Understand → Build → Refine → Ship → Repeat.</strong></p>
+</details>
 
-**React · TypeScript · Vite · GSAP**
+<a id="public-activity"></a>
+<img src="assets/section-activity.svg" width="100%" alt="04 — The public signal">
 
-*Professional covers are abstract artwork. Source code and implementation details remain private.*
+<a href="https://github.com/Farazhaghgoo?tab=overview">
+  <img src="assets/activity.svg" width="100%" alt="Faraz’s public GitHub contribution landscape. Each column is a week, each block a day; height follows GitHub’s activity level. Snapshot date is printed in the image.">
+</a>
 
-![02 — Independent output](assets/section-projects.svg)
+<p align="center"><sub>A public snapshot, refreshed by the included workflow. My professional work happens in private repositories too.</sub></p>
 
-[![Whomst — personality, play and identity. View repository.](assets/project-whomst.svg)](https://github.com/Farazhaghgoo/whomst)
+<a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252"><img src="assets/footer.svg" width="100%" alt="Build something worth using. Let’s connect on LinkedIn."></a>
 
-### [Whomst ↗](https://github.com/Farazhaghgoo/whomst)
-
-A playful personality engine that matches answers to characters through vector-based scoring. The initial build connects the quiz, results and sharing, with server-side scoring and dynamic social images.
-
-**Next.js · TypeScript · PostgreSQL · Prisma · Redis**
-
-[![Ledger — money, movement and mobile. View repository.](assets/project-ledger.svg)](https://github.com/Farazhaghgoo/financeApp)
-
-### [Ledger / financeApp ↗](https://github.com/Farazhaghgoo/financeApp)
-
-Manual-first personal finance for cash spending, income and peer transfers. Built for iOS and Android, with optimistic, offline-tolerant writes and a clear distinction between spending and moving money.
-
-**React Native · Expo · TypeScript · Supabase · TanStack Query**
-
-[![VeloCity — data, trust and interaction. View repository.](assets/project-velocity.svg)](https://github.com/Farazhaghgoo/VeloCity)
-
-### [VeloCity ↗](https://github.com/Farazhaghgoo/VeloCity)
-
-A landing-page experience for data verification and secure data rooms. Combines expressive motion and responsive interfaces with a working waitlist backend.
-
-**Next.js · React · TypeScript · GSAP · Framer Motion**
-
-[![CVai — career, AI and interface study. View repository.](assets/project-cvai.svg)](https://github.com/Farazhaghgoo/CVai)
-
-### [CVai / AI Career Partner ↗](https://github.com/Farazhaghgoo/CVai)
-
-A career-product interface prototype exploring CV feedback, job matching and career insights. Uses mock data to study the experience of AI-assisted career tools.
-
-**React · Vite · Tailwind CSS · SVG**
-
-![03 — Tools and curiosity](assets/section-tools.svg)
-
-![React, TypeScript, Next.js, Expo, PostgreSQL, Supabase, Prisma and Vite.](assets/technology-strip.svg)
-
-**Exploring:** AI-native products, human–computer interaction and product architecture.
-
-**How I build:** understand the problem → shape the system → refine the interaction → ship and iterate.
-
-![Make something that didn’t exist. Build. Question. Iterate. Ship.](assets/footer.svg)
-
-[GitHub ↗](https://github.com/Farazhaghgoo) · [LinkedIn ↗](https://www.linkedin.com/in/faraz-haghgoo-6b4a64252) · **Turin, Italy**
+<p align="center"><sub>Faraz Haghgoo / Turin, Italy &nbsp; · &nbsp; <a href="https://github.com/Farazhaghgoo">GitHub</a> &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252">LinkedIn</a></sub></p>
