@@ -61,16 +61,9 @@ AI is part of how I research, code, and experiment. Understanding the result, ma
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## Currently building
+## Professional work
 
-Alongside my public projects, I contribute to private professional work.
-
-| Project | Status | Technologies |
-| :--- | :--- | :--- |
-| **Inrebus website** | Working on the new website · Private | React · TypeScript · Vite · GSAP · Lenis · Vercel |
-| **HMI DAO** | HMI development in progress · Private | JavaScript · Vite · Three.js · Tailwind CSS · Vitest |
-
-<sub>Project details and source code remain private.</sub>
+Alongside my public projects, I contribute to professional software projects whose details remain confidential.
 
 ## My toolkit
 
