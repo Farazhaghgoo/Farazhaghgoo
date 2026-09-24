@@ -1,110 +1,421 @@
-<p align="center">
-  <img src="./assets/starchaser-cover.png" width="100%" alt="Faraz Haghgoo — Starchaser. Software × Product × AI. Turin, Italy." />
+<!-- =========================================================
+     FARAZ HAGHGOO — GITHUB PROFILE
+     ========================================================= -->
+
+<p align="right">
+  <sub>FH / 26 &nbsp;&nbsp; TORINO — IT</sub>
 </p>
 
-<h3 align="center">Curious enough to explore it. Hands-on enough to build it.</h3>
+<br>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252"><img alt="LinkedIn ↗" src="https://img.shields.io/badge/LinkedIn%20%E2%86%97-7161c5?style=flat-square" /></a>
-  <a href="https://github.com/Farazhaghgoo?tab=repositories"><img alt="Explore my projects ↗" src="https://img.shields.io/badge/Explore%20my%20projects%20%E2%86%97-263e60?style=flat-square" /></a>
-  <img alt="Turin, Italy" src="https://img.shields.io/badge/Turin%2C%20Italy-263e60?style=flat-square" />
-</p>
+# FARAZ
+# HAGHGOO.
 
-## A little about me
+### SOFTWARE / PRODUCT / INTERFACES / SYSTEMS
 
-I’m **Faraz Haghgoo**, a developer and product-minded builder based in Turin. I enjoy the whole journey: shaping an idea, designing its interactions, building the backend, and making the pieces work together.
+> I build digital products, interfaces and systems somewhere between  
+> **engineering, experimentation and product design.**
 
-My work spans **full-stack web development, mobile apps, interactive interfaces, and AI-assisted product development**. I’m drawn to software that helps people learn, work, manage their lives, or discover something unexpected.
+<br>
 
-AI is part of how I research, code, and experiment. Understanding the result, making the decisions, and checking that it works are still part of the job.
+`PRODUCT ENGINEERING` &nbsp; `FULL STACK` &nbsp; `INTERACTION` &nbsp; `MOBILE` &nbsp; `AI`
 
-<p align="center"><b>Product thinking &nbsp; × &nbsp; Engineering &nbsp; × &nbsp; Interface craft</b></p>
+<br>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+---
 
-## Selected projects
+<br>
+
+## 00 ───────── SIGNAL
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Farazhaghgoo/whomst"><img src="./assets/whomst.svg" width="100%" alt="Whomst — personality quiz and scoring engine" /></a>
-<p>A character-matching quiz powered by <b>12 trait dimensions</b>, server-side scoring, and shareable result pages.</p>
-<p><b>Engineering detail:</b> scoring stays on the server; dynamically generated preview images make results easy to share.</p>
-<p><code>Next.js</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Prisma</code> <code>Redis</code> <code>Zod</code> <code>Vitest</code></p>
-<p><a href="https://github.com/Farazhaghgoo/whomst"><b>Explore Whomst ↗</b></a></p>
+<td width="33%" valign="top">
+
+### 652
+
+**CONTRIBUTIONS**
+
+last 12 months
+
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/Farazhaghgoo/financeApp"><img src="./assets/ledger.svg" width="100%" alt="Ledger — mobile personal finance" /></a>
-<p>A personal finance app for <b>cash spending and peer transfers</b>, built with optimistic updates and offline-tolerant writes.</p>
-<p><b>Product detail:</b> transfers are modeled separately from expenses. Moving money should not look like spending it.</p>
-<p><code>React Native</code> <code>Expo</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code> <code>TanStack Query</code></p>
-<p><a href="https://github.com/Farazhaghgoo/financeApp"><b>Explore Ledger ↗</b></a></p>
+<td width="33%" valign="top">
+
+### TURIN
+
+**ITALY**
+
+currently based
+
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Farazhaghgoo/CVai"><img src="./assets/career.svg" width="100%" alt="AI Career Partner — UI prototype" /></a>
-<p>A <b>UI prototype</b> exploring CV feedback, job matching, career insights, and cover-letter interactions with mock data.</p>
-<p><b>Interface detail:</b> custom SVG charts, animated feedback, and connected views for a complete career-workflow concept.</p>
-<p><code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>SVG</code> <code>CSS Animations</code></p>
-<p><a href="https://github.com/Farazhaghgoo/CVai"><b>Explore AI Career Partner ↗</b></a></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/Farazhaghgoo/VeloCity"><img src="./assets/velocity.svg" width="100%" alt="VeloCity — web interaction design" /></a>
-<p>A <b>landing-page experience</b> for data-verification and data-room workflows, with motion design and a working waitlist backend.</p>
-<p><b>Engineering detail:</b> shared validation and types keep frontend inputs aligned with backend expectations.</p>
-<p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>GSAP</code> <code>Framer Motion</code> <code>Lenis</code></p>
-<p><a href="https://github.com/Farazhaghgoo/VeloCity"><b>Explore VeloCity ↗</b></a></p>
+<td width="33%" valign="top">
+
+### BUILDING
+
+**PROFESSIONAL +  
+INDEPENDENT SOFTWARE**
+
+2026
+
 </td>
 </tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+A large part of my development activity happens in **professional repositories**, so the public projects on this profile only show part of what I'm currently building.
 
-## Currently building
+<br>
 
-Alongside my public projects, I contribute to private professional work.
+---
 
-| Project | Status | Technologies |
-| :--- | :--- | :--- |
-| **Inrebus website** | Working on the new website · Private | React · TypeScript · Vite · GSAP · Lenis · Vercel |
-| **HMI DAO** | HMI development in progress · Private | JavaScript · Vite · Three.js · Tailwind CSS · Vitest |
+<br>
 
-<sub>Project details and source code remain private.</sub>
+## 01 ───────── PROFILE
 
-## My toolkit
+I'm **Faraz Haghgoo**, a developer and product builder based in Turin.
 
-| Area | Technologies & practice |
-| :--- | :--- |
-| **Web & frontend** | React · Next.js · TypeScript · JavaScript · HTML5 · CSS3 · Vite |
-| **Mobile** | React Native · Expo · TanStack Query · optimistic UI · offline-tolerant writes |
-| **Backend & data** | PostgreSQL · Supabase · Prisma · Redis · REST APIs · data modeling |
-| **Design & interaction** | Tailwind CSS · GSAP · Framer Motion · Lenis · SVG · Three.js · responsive interfaces |
-| **Engineering** | Git · GitHub · Vitest · Zod · validation · testing · modular architecture |
-| **Application security** | Session handling · row-level security · server-side validation · rate limiting |
-| **Product & AI** | Product prototyping · UX decisions · AI-assisted research and development · AI interface experiments |
-| **Deployment** | Vercel · frontend build tooling |
+I like taking an idea past the prototype stage.
 
-<details>
-<summary><b>How I approach a build</b></summary>
+That means thinking about the interface, architecture, data model, interaction, backend, edge cases, performance and the small details that determine whether a product actually feels good to use.
 
-- **Start with a real use case.** Decide what the person needs to accomplish before choosing the architecture.
-- **Think across the product.** Connect the interface, data model, backend, and error states.
-- **Give motion a job.** Use it to explain a transition or acknowledge an action.
-- **Make boundaries explicit.** Validate inputs and decide who should have access to each piece of data.
-- **Use AI with judgment.** Explore quickly, inspect the output, and verify behavior.
-- **Keep experimenting.** A small working version teaches more than a long list of imagined features.
+My work currently moves between:
 
-</details>
+```text
+PRODUCT ENGINEERING
+        ↓
+INTERACTIVE INTERFACES
+        ↓
+FULL-STACK SYSTEMS
+        ↓
+MOBILE APPLICATIONS
+        ↓
+EXPERIMENTAL SOFTWARE
+I'm especially interested in products where strong engineering and strong visual identity meet.
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+const faraz = {
+  location: "Turin, Italy",
 
-## Where my curiosity goes next
+  building: [
+    "digital products",
+    "interactive interfaces",
+    "full-stack applications",
+    "mobile experiences",
+    "professional software"
+  ],
 
-**AI-native products · Human–computer interaction · Creative interfaces · Startup ideas**
+  exploring: [
+    "AI-native products",
+    "human-computer interaction",
+    "creative development",
+    "product architecture",
+    "the future of software"
+  ],
 
-I’m interested in what happens when one person or a small team can build more ambitious software—and how that changes the way we work, learn, and create.
+  principle: "Build things people actually want to use."
+};
 
-<p align="center"><b>Have an idea worth exploring?</b><br /><a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252">Let’s connect on LinkedIn ↗</a></p>
 
-<p align="center"><img src="./assets/footer.svg" width="100%" alt="Stay curious. Keep building. The next idea deserves a first version." /></p>
+02 ───────── PROFESSIONAL / SELECTED
+001 / INDUSTRIAL HMI + DIGITAL TWIN
+PROFESSIONAL WORK
+Working on an industrial Human–Machine Interface and Digital Twin environment at inRebus.
+The project involves building interfaces for complex technical systems where information hierarchy, system state, operator interaction and reliability matter much more than conventional website UI.
+My work touches areas such as:
+INTERFACE ENGINEERING
+SYSTEM ARCHITECTURE
+REAL-TIME UI
+SIMULATION
+3D / DATA VISUALIZATION
+COMPLEX APPLICATION STATE
+ROLE-BASED INTERACTION
+TESTING
+Professional implementation details are intentionally not exposed here.
+
+
+<div align="right">
+
+SYSTEMS → INTERFACES → HUMANS
+</div>
+
+
+002 / INREBUS DIGITAL EXPERIENCE
+PROFESSIONAL WORK
+Working on the development and redesign of the inRebus web experience.
+The project focuses heavily on combining frontend engineering with motion, visual identity and interaction design.
+Areas involved include:
+React · TypeScript · Vite · GSAP · React Router
+Responsive UI · Motion Systems · Component Architecture
+Interactive Experiences · Frontend Performance
+
+I care about motion when it communicates something — not when it exists just to decorate a page.
+
+
+
+03 ───────── INDEPENDENT OUTPUT
+001 / WHOMST ↗
+Experimental personality engine
+A personality system that matches users to characters through a vector-based scoring engine across multiple trait dimensions.
+The interesting part isn't just the quiz interface.
+The project includes:
+- server-side scoring
+- dynamic result generation
+- shareable result pages
+- dynamic OG images
+- persistence
+- validation
+- rate limiting
+- automated testing
+STACK
+Next.js
+TypeScript
+PostgreSQL
+Prisma
+Redis
+Zod
+Vitest
+→ VIEW PROJECT
+
+002 / LEDGER ↗
+Personal finance application
+A cross-platform finance application built around a manual-first approach to money tracking.
+One of the core ideas is properly representing things that automated finance applications often misunderstand — especially cash spending and peer transfers.
+The architecture includes:
+- offline-friendly mutations
+- optimistic updates
+- authentication
+- secure sessions
+- database-level authorization
+- transaction modeling
+- account state management
+STACK
+React Native
+Expo
+TypeScript
+Supabase
+PostgreSQL
+TanStack Query
+→ VIEW PROJECT
+
+003 / VELOCITY ↗
+Data / verification experience
+An experimental digital experience built around trust, information and interaction.
+The interface explores how a technical product can still have a strong visual identity without losing clarity.
+Includes:
+- motion systems
+- responsive interaction
+- backend waitlist logic
+- validation
+- shared frontend / backend contracts
+- reusable components
+STACK
+Next.js
+React
+TypeScript
+Tailwind
+GSAP
+Framer Motion
+→ VIEW PROJECT
+
+004 / AI CAREER PARTNER ↗
+Career product experiment
+An exploration of how AI could change parts of the job-search experience.
+The product concept includes:
+- CV analysis
+- ATS feedback
+- job matching
+- market insights
+- interview preparation
+- AI-assisted cover letters
+- career dashboards
+STACK
+React
+Vite
+Tailwind CSS
+SVG
+Product UI
+→ VIEW PROJECT
+
+
+04 ───────── TOOLKIT / CURRENT
+<table>
+<tr>
+<td width="25%" valign="top">
+
+CORE
+React
+Next.js
+TypeScript
+JavaScript
+HTML / CSS
+</td>
+
+<td width="25%" valign="top">
+
+SYSTEMS
+PostgreSQL
+Supabase
+Prisma
+Redis
+REST APIs
+</td>
+
+<td width="25%" valign="top">
+
+INTERACTION
+GSAP
+Framer Motion
+Three.js
+Tailwind CSS
+SVG
+</td>
+
+<td width="25%" valign="top">
+
+ENGINEERING
+Git
+GitHub
+Vite
+Vitest
+Zod
+</td>
+</tr>
+</table>
+
+
+MOBILE
+React Native    Expo
+
+
+05 ───────── HOW I BUILD
+01 / PRODUCT
+Before asking how do I build this?
+I prefer asking:
+Why should this exist?
+
+02 / SYSTEM
+Good interfaces sit on top of good systems.
+I care about architecture, data flow, state and how a product behaves when it grows beyond the first version.
+
+03 / INTERACTION
+The interface should communicate.
+Motion, hierarchy, typography, feedback and timing can explain a system before text ever does.
+
+04 / DETAILS
+Small details compound.
+A transition that's 100ms too slow.
+An action without feedback.
+A hierarchy that makes the wrong thing look important.
+Those things matter.
+
+05 / SHIP
+IDEA
+
+ ↓
+
+PROTOTYPE
+
+ ↓
+
+BREAK IT
+
+ ↓
+
+REBUILD IT
+
+ ↓
+
+SHIP
+
+ ↓
+
+REPEAT
+
+
+06 ───────── CURRENTLY EXPLORING
+AI-NATIVE PRODUCTS
+Not simply adding a chatbot to existing software.
+I'm interested in how products themselves change when intelligence becomes part of the interface.
+
+HUMAN × COMPLEX SYSTEM
+How do you make complicated systems understandable without removing their power?
+
+INTERFACES AS ENVIRONMENTS
+Software doesn't necessarily have to feel like a collection of pages and buttons.
+It can behave more like a space.
+
+CREATIVE ENGINEERING
+I like products that make you wonder:
+“Why don't more things work like this?”
+
+
+
+07 ───────── CURRENT SIGNAL
+2026
+
+MAY      ███████████████
+JUN      ███████████████████
+JUL      █████████████████████
+AUG      ███████████████████
+SEP      ████████████████████████
+
+652 CONTRIBUTIONS / LAST YEAR
+My recent GitHub activity is heavily connected to professional product development.
+That means commit count isn't the goal.
+Shipping working software is.
+
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+WORK
+Professional software
+Product development
+HMI / digital systems
+Interactive frontend
+Full-stack experiments
+</td>
+
+<td width="50%" valign="top">
+
+INTERESTS
+AI
+Startups
+Product design
+Creative technology
+Human–computer interaction
+Future interfaces
+</td>
+</tr>
+</table>
+
+
+
+
+
+<p align="center">
+  <sub>FH / TORINO / 2026</sub>
+</p>
+
+<h1 align="center">
+MAKE SOMETHING<br>
+THAT DIDN'T EXIST.
+</h1>
+
+<p align="center">
+  Build / Question / Iterate / Ship
+</p>
+
+
+<p align="center">
+  <a href="https://github.com/Farazhaghgoo">GITHUB ↗</a>
+  &nbsp;&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252">LINKEDIN ↗</a>
+</p>
+
+
+
+
+<p align="right">
+  <sub>FARAZ HAGHGOO®</sub>
+</p>
+```
