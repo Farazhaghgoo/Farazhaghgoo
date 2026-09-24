@@ -1,10 +1,16 @@
-<!-- =========================================================
-     FARAZ HAGHGOO — GITHUB PROFILE
-     ========================================================= -->
+<!--
+=========================================================
+FARAZ HAGHGOO
+GitHub Profile / 2026
+=========================================================
+-->
 
-<p align="right">
-  <sub>FH / 26 &nbsp;&nbsp; TORINO — IT</sub>
-</p>
+<div align="right">
+
+`FH / 26`  
+`TORINO — IT`
+
+</div>
 
 <br>
 
@@ -13,69 +19,66 @@
 
 ### SOFTWARE / PRODUCT / INTERFACES / SYSTEMS
 
-> I build digital products, interfaces and systems somewhere between  
+> I build digital products and complex interfaces somewhere between  
 > **engineering, experimentation and product design.**
 
 <br>
 
-`PRODUCT ENGINEERING` &nbsp; `FULL STACK` &nbsp; `INTERACTION` &nbsp; `MOBILE` &nbsp; `AI`
+`PRODUCT ENGINEERING` · `FULL STACK` · `INTERACTION` · `MOBILE` · `AI`
 
 <br>
 
 ---
 
-<br>
-
-## 00 ───────── SIGNAL
+## 00 ── SIGNAL
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 652
+### SHIPPING
 
-**CONTRIBUTIONS**
+**PROFESSIONAL  
+SOFTWARE**
 
-last 12 months
+Private + public work
 
 </td>
+
 <td width="33%" valign="top">
 
 ### TURIN
 
 **ITALY**
 
-currently based
+Currently based
 
 </td>
+
 <td width="33%" valign="top">
 
-### BUILDING
+### 2026
 
-**PROFESSIONAL +  
-INDEPENDENT SOFTWARE**
+**BUILDING  
+ACTIVELY**
 
-2026
+Product / Systems / UI
 
 </td>
 </tr>
 </table>
 
-A large part of my development activity happens in **professional repositories**, so the public projects on this profile only show part of what I'm currently building.
-
-<br>
+Most of my recent development activity happens inside **professional repositories**, so my public repositories only show part of what I'm currently building.
 
 ---
 
-<br>
-
-## 01 ───────── PROFILE
+## 01 ── PROFILE
 
 I'm **Faraz Haghgoo**, a developer and product builder based in Turin.
 
-I like taking an idea past the prototype stage.
+I like taking ideas beyond the prototype.
 
-That means thinking about the interface, architecture, data model, interaction, backend, edge cases, performance and the small details that determine whether a product actually feels good to use.
+That means thinking about the interface, architecture, data model, interaction, backend, system state, performance, edge cases and the small details that determine whether software actually feels good to use.
 
 My work currently moves between:
 
@@ -90,7 +93,6 @@ MOBILE APPLICATIONS
         ↓
 EXPERIMENTAL SOFTWARE
 I'm especially interested in products where strong engineering and strong visual identity meet.
-
 const faraz = {
   location: "Turin, Italy",
 
@@ -107,19 +109,17 @@ const faraz = {
     "human-computer interaction",
     "creative development",
     "product architecture",
-    "the future of software"
+    "future interfaces"
   ],
 
   principle: "Build things people actually want to use."
 };
-
-
-02 ───────── PROFESSIONAL / SELECTED
+02 ── PROFESSIONAL / SELECTED
 001 / INDUSTRIAL HMI + DIGITAL TWIN
-PROFESSIONAL WORK
+PROFESSIONAL PRIVATE
 Working on an industrial Human–Machine Interface and Digital Twin environment at inRebus.
-The project involves building interfaces for complex technical systems where information hierarchy, system state, operator interaction and reliability matter much more than conventional website UI.
-My work touches areas such as:
+The project involves building interfaces for complex technical systems where information hierarchy, application state, operator interaction, simulation and reliability matter far more than conventional website UI.
+Areas
 INTERFACE ENGINEERING
 SYSTEM ARCHITECTURE
 REAL-TIME UI
@@ -128,34 +128,31 @@ SIMULATION
 COMPLEX APPLICATION STATE
 ROLE-BASED INTERACTION
 TESTING
+The system includes work around operator workflows, alarm states, simulation environments, access-controlled interactions and technical visualization.
 Professional implementation details are intentionally not exposed here.
-
 
 <div align="right">
 
 SYSTEMS → INTERFACES → HUMANS
 </div>
 
-
 002 / INREBUS DIGITAL EXPERIENCE
-PROFESSIONAL WORK
+PROFESSIONAL PRIVATE
 Working on the development and redesign of the inRebus web experience.
-The project focuses heavily on combining frontend engineering with motion, visual identity and interaction design.
-Areas involved include:
-React · TypeScript · Vite · GSAP · React Router
-Responsive UI · Motion Systems · Component Architecture
-Interactive Experiences · Frontend Performance
+The project combines frontend engineering with motion, interaction and visual identity.
+Stack / Areas
+React · TypeScript · Vite
+GSAP · React Router
+Responsive UI · Motion Systems
+Component Architecture · Interactive Experiences
+I care about motion when it communicates something — not when it exists only to decorate a page.
+Professional repository. Selected implementation details remain private.
 
-I care about motion when it communicates something — not when it exists just to decorate a page.
-
-
-
-03 ───────── INDEPENDENT OUTPUT
+03 ── INDEPENDENT OUTPUT
 001 / WHOMST ↗
 Experimental personality engine
 A personality system that matches users to characters through a vector-based scoring engine across multiple trait dimensions.
-The interesting part isn't just the quiz interface.
-The project includes:
+The project goes beyond the quiz interface and includes:
 - server-side scoring
 - dynamic result generation
 - shareable result pages
@@ -164,7 +161,7 @@ The project includes:
 - validation
 - rate limiting
 - automated testing
-STACK
+Stack
 Next.js
 TypeScript
 PostgreSQL
@@ -172,72 +169,68 @@ Prisma
 Redis
 Zod
 Vitest
-→ VIEW PROJECT
-
+VIEW REPOSITORY ↗
 002 / LEDGER ↗
 Personal finance application
 A cross-platform finance application built around a manual-first approach to money tracking.
-One of the core ideas is properly representing things that automated finance applications often misunderstand — especially cash spending and peer transfers.
+One of the core ideas is representing things that automated finance apps often misunderstand — especially cash spending and peer transfers.
 The architecture includes:
 - offline-friendly mutations
 - optimistic updates
 - authentication
-- secure sessions
-- database-level authorization
+- encrypted session handling
+- row-level database security
 - transaction modeling
 - account state management
-STACK
+Stack
 React Native
 Expo
 TypeScript
 Supabase
 PostgreSQL
 TanStack Query
-→ VIEW PROJECT
-
+VIEW REPOSITORY ↗
 003 / VELOCITY ↗
 Data / verification experience
-An experimental digital experience built around trust, information and interaction.
-The interface explores how a technical product can still have a strong visual identity without losing clarity.
+An experimental product built around trust, information and interaction.
+The project explores how a technical product can maintain a strong visual identity without sacrificing clarity.
 Includes:
 - motion systems
 - responsive interaction
-- backend waitlist logic
-- validation
-- shared frontend / backend contracts
+- backend waitlist functionality
+- input validation
+- shared frontend/backend contracts
 - reusable components
-STACK
+Stack
 Next.js
 React
 TypeScript
-Tailwind
+Tailwind CSS
 GSAP
 Framer Motion
-→ VIEW PROJECT
-
+VIEW REPOSITORY ↗
 004 / AI CAREER PARTNER ↗
-Career product experiment
-An exploration of how AI could change parts of the job-search experience.
+Career-product experiment
+An exploration of how AI could reshape parts of the job-search experience.
 The product concept includes:
-- CV analysis
+- CV analysis interfaces
 - ATS feedback
 - job matching
 - market insights
 - interview preparation
-- AI-assisted cover letters
+- AI-assisted cover-letter UX
 - career dashboards
-STACK
+Stack
 React
 Vite
 Tailwind CSS
 SVG
 Product UI
-→ VIEW PROJECT
-
-
-04 ───────── TOOLKIT / CURRENT
+VIEW REPOSITORY ↗
+04 ── TOOLKIT / CURRENT
 <table>
 <tr>
+
 <td width="25%" valign="top">
 
 CORE
@@ -277,94 +270,98 @@ Vite
 Vitest
 Zod
 </td>
+
+</tr>
+</table>
+
+MOBILE
+React Native · Expo
+05 ── HOW I BUILD
+<table>
+<tr>
+<td width="20%" valign="top">
+
+01
+PRODUCT
+Why should this exist?
+</td>
+
+<td width="20%" valign="top">
+
+02
+SYSTEM
+How should the pieces work together?
+</td>
+
+<td width="20%" valign="top">
+
+03
+INTERACTION
+Can the interface explain itself?
+</td>
+
+<td width="20%" valign="top">
+
+04
+DETAIL
+Does every action feel intentional?
+</td>
+
+<td width="20%" valign="top">
+
+05
+SHIP
+Does it actually work?
+</td>
 </tr>
 </table>
 
 
-MOBILE
-React Native    Expo
-
-
-05 ───────── HOW I BUILD
-01 / PRODUCT
-Before asking how do I build this?
-I prefer asking:
-Why should this exist?
-
-02 / SYSTEM
-Good interfaces sit on top of good systems.
-I care about architecture, data flow, state and how a product behaves when it grows beyond the first version.
-
-03 / INTERACTION
-The interface should communicate.
-Motion, hierarchy, typography, feedback and timing can explain a system before text ever does.
-
-04 / DETAILS
-Small details compound.
-A transition that's 100ms too slow.
-An action without feedback.
-A hierarchy that makes the wrong thing look important.
-Those things matter.
-
-05 / SHIP
 IDEA
-
- ↓
-
+  │
+  ▼
 PROTOTYPE
-
- ↓
-
+  │
+  ▼
 BREAK IT
-
- ↓
-
-REBUILD IT
-
- ↓
-
+  │
+  ▼
+REBUILD
+  │
+  ▼
 SHIP
-
- ↓
-
-REPEAT
-
-
-06 ───────── CURRENTLY EXPLORING
+  │
+  └───────────────→ REPEAT
+06 ── CURRENTLY EXPLORING
 AI-NATIVE PRODUCTS
 Not simply adding a chatbot to existing software.
 I'm interested in how products themselves change when intelligence becomes part of the interface.
-
 HUMAN × COMPLEX SYSTEM
 How do you make complicated systems understandable without removing their power?
-
 INTERFACES AS ENVIRONMENTS
 Software doesn't necessarily have to feel like a collection of pages and buttons.
 It can behave more like a space.
-
 CREATIVE ENGINEERING
-I like products that make you wonder:
-“Why don't more things work like this?”
+Products where engineering and visual thinking are developed together rather than treated as separate layers.
+Why don't more things work like this?
 
+07 ── ACTIVITY
+A large part of my current GitHub activity is connected to professional product development.
+My recent work is concentrated around:
+PRODUCT DEVELOPMENT
 
+INTERACTIVE FRONTENDS
 
-07 ───────── CURRENT SIGNAL
-2026
+HMI / DIGITAL SYSTEMS
 
-MAY      ███████████████
-JUN      ███████████████████
-JUL      █████████████████████
-AUG      ███████████████████
-SEP      ████████████████████████
+PROFESSIONAL SOFTWARE
 
-652 CONTRIBUTIONS / LAST YEAR
-My recent GitHub activity is heavily connected to professional product development.
-That means commit count isn't the goal.
+FULL-STACK EXPERIMENTS
+Commit count isn't the goal.
 Shipping working software is.
-
-
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
 WORK
@@ -372,7 +369,8 @@ Professional software
 Product development
 HMI / digital systems
 Interactive frontend
-Full-stack experiments
+Full-stack applications
+Mobile applications
 </td>
 
 <td width="50%" valign="top">
@@ -385,37 +383,27 @@ Creative technology
 Human–computer interaction
 Future interfaces
 </td>
+
 </tr>
 </table>
 
 
 
+<div align="center">
 
-
-<p align="center">
-  <sub>FH / TORINO / 2026</sub>
-</p>
-
-<h1 align="center">
-MAKE SOMETHING<br>
+FH / TORINO / 2026
+MAKE SOMETHING
 THAT DIDN'T EXIST.
-</h1>
+BUILD / QUESTION / ITERATE / SHIP
 
-<p align="center">
-  Build / Question / Iterate / Ship
-</p>
-
-
-<p align="center">
-  <a href="https://github.com/Farazhaghgoo">GITHUB ↗</a>
-  &nbsp;&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252">LINKEDIN ↗</a>
-</p>
+GITHUB ↗
+    /    
+LINKEDIN ↗
+</div>
 
 
+<div align="right">
 
-
-<p align="right">
-  <sub>FARAZ HAGHGOO®</sub>
-</p>
+FARAZ HAGHGOO®
+</div>
 ```
