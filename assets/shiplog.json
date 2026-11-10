@@ -1,0 +1,71 @@
+{
+  "source": "https://api.github.com/users/Farazhaghgoo/repos",
+  "snapshot": "2026-11-10",
+  "scope": "Public repositories only; not total professional activity",
+  "window_days": 90,
+  "log": [
+    {
+      "date": "2026-10-26",
+      "repo": "hamiYami",
+      "message": "Make public pages indexable and add sitemap, robots and llms.txt"
+    },
+    {
+      "date": "2026-10-26",
+      "repo": "hamiYami",
+      "message": "Document the story page"
+    },
+    {
+      "date": "2026-10-26",
+      "repo": "hamiYami",
+      "message": "Link the story page and test it"
+    },
+    {
+      "date": "2026-10-26",
+      "repo": "hamiYami",
+      "message": "Deploy to Cloudflare Workers on hamiyami.com"
+    },
+    {
+      "date": "2026-10-19",
+      "repo": "curseek",
+      "message": "Expose hiders who touch a wall"
+    },
+    {
+      "date": "2026-10-19",
+      "repo": "curseek",
+      "message": "Add perks, curses and coins, and steer with the mouse via Tab"
+    },
+    {
+      "date": "2026-10-19",
+      "repo": "curseek",
+      "message": "Keep the hunt clock full at the moment of release"
+    },
+    {
+      "date": "2026-10-15",
+      "repo": "curseek",
+      "message": "Document touch controls, scoring, host tools and hosting limits"
+    },
+    {
+      "date": "2026-10-08",
+      "repo": "portfolio",
+      "message": "Bring back the original animated hero shapes"
+    },
+    {
+      "date": "2026-10-08",
+      "repo": "portfolio",
+      "message": "Build Faraz's portfolio with working demos and an Interlock identity"
+    }
+  ],
+  "totals": {
+    "hamiYami": 42,
+    "curseek": 32,
+    "portfolio": 2
+  },
+  "languages": {
+    "TypeScript": 1449861,
+    "CSS": 146667,
+    "JavaScript": 126744,
+    "HTML": 18443,
+    "PLpgSQL": 9715,
+    "Dockerfile": 470
+  }
+}

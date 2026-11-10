@@ -17,7 +17,7 @@
 
                 <path id='path0'>
                             <!-- Single line -->
-                                <animate id='d0' attributeName='d' begin='0s;d2.end'
+                                <animate id='d0' attributeName='d' begin='0s;d3.end'
                     dur='4800ms' fill='remove'
                     values='m0,30 h0 ; m0,30 h1000 ; m0,30 h1000 ; m0,30 h0' keyTimes='0;0.53333333333333;0.86666666666667;1' />
                     </path>
@@ -55,6 +55,20 @@
         letter-spacing='normal'>
         <textPath xlink:href='#path2'>
             Based in Turin. Always building.
+        </textPath>
+    </text>
+<path id='path3'>
+                            <!-- Single line -->
+                                <animate id='d3' attributeName='d' begin='d2.end'
+                    dur='4800ms' fill='remove'
+                    values='m0,30 h0 ; m0,30 h1000 ; m0,30 h1000 ; m0,30 h0' keyTimes='0;0.53333333333333;0.86666666666667;1' />
+                    </path>
+    <text font-family='"Fira Code", monospace' fill='#FF6A2A' font-size='24'
+        dominant-baseline='middle'
+        x='50%' text-anchor='middle'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path3'>
+            Latest: a marketplace, a multiplayer maze, a new portfolio.
         </textPath>
     </text>
 </svg>

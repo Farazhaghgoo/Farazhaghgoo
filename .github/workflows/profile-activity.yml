@@ -1,0 +1,50 @@
+name: Refresh profile artwork
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/profile-activity.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-artwork
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+
+      # Both scripts use only the Python standard library and read public data.
+      # Each keeps the previous image if its source looks wrong, so one failing
+      # does not stop the other from refreshing.
+      - name: Render contribution landscape
+        run: python3 scripts/update_activity.py
+
+      - name: Render ship log
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}   # only raises the public API rate limit
+        run: python3 scripts/update_shiplog.py
+
+      - name: Commit refreshed artwork
+        if: always()
+        run: |
+          git add assets/activity.svg assets/activity.json assets/shiplog.svg assets/shiplog.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh public activity artwork"
+          git push

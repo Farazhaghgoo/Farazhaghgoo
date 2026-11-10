@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
-  <img src="assets/hero.svg" width="100%" alt="Faraz Haghgoo — software engineer and product builder. Complex systems. Clear interfaces. Based in Turin, building at inRebus.">
+  <img src="assets/hero.svg" width="100%" alt="Faraz Haghgoo — software engineer and product builder. Complex systems. Clear interfaces. Based in Turin, building at inRebus. Latest build: hamiyami.com.">
 </picture>
 
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/typing-static.svg">
-    <img src="assets/typing.svg" width="92%" alt="Engineering interfaces. Building products. From industrial systems to independent ideas. Based in Turin. Always building.">
+    <img src="assets/typing.svg" width="92%" alt="Engineering interfaces. Building products. From industrial systems to independent ideas. Based in Turin. Always building. Latest: a marketplace, a multiplayer maze, a new portfolio.">
   </picture>
 </p>
 
@@ -14,6 +14,8 @@
   <a href="https://github.com/Farazhaghgoo"><img src="assets/github.svg" height="34" alt="GitHub — Farazhaghgoo"></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252"><img src="assets/linkedin.svg" height="34" alt="Connect on LinkedIn"></a>
+  &nbsp;
+  <a href="https://hamiyami.com"><img src="assets/live.svg" height="34" alt="Latest build, live at hamiyami.com"></a>
 </p>
 
 <p align="center">
@@ -22,15 +24,21 @@
   I care about the system underneath, the interaction on top, and the details in between.
 </p>
 
+<img src="assets/marquee.svg" width="100%" alt="Projects: HamiYami, curseek, Portfolio, Whomst, Ledger, VeloCity, CVai">
+
 <p align="center">
   <a href="#professional-work">Professional work</a> &nbsp; / &nbsp;
   <a href="#independent-projects">Projects</a> &nbsp; / &nbsp;
+  <a href="#ship-log">Ship log</a> &nbsp; / &nbsp;
   <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
   <a href="#public-activity">Activity</a>
 </p>
 
 <a id="professional-work"></a>
-<img src="assets/section-professional.svg" width="100%" alt="01 — Building at inRebus">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-professional.svg">
+  <img src="assets/section-professional-light.svg" width="100%" alt="01 — Building at inRebus">
+</picture>
 
 <table>
 <tr>
@@ -54,9 +62,36 @@
 <sub>Professional covers are original abstract artwork. Implementation details and source code remain private.</sub>
 
 <a id="independent-projects"></a>
-<img src="assets/section-projects.svg" width="100%" alt="02 — Independent experiments">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-projects.svg">
+  <img src="assets/section-projects-light.svg" width="100%" alt="02 — Independent experiments">
+</picture>
+
+<a href="https://hamiyami.com"><img src="assets/hamiyami.svg" width="100%" alt="HamiYami — dinner, cooked nearby, ready for pickup. Latest build, live at hamiyami.com. The phone shows the real demo home page scrolling."></a>
+
+<p>
+  <strong>HamiYami</strong> is a marketplace demo for meals cooked by neighbourhood cooks: a weekly menu grouped by pickup day, simulated reservations with pickup codes and calendar export, a cook workspace with a day-by-day prep view, and a scrollytelling story page. Italian and English. Every meal, cook and number in it is fictional, and the demo says so.
+</p>
+<p>
+  <sub>Next.js 16 · React 19 · TypeScript · Zod · Vitest · Playwright · Cloudflare Workers &nbsp;/&nbsp; 117 unit tests · 51 browser tests</sub><br>
+  <a href="https://hamiyami.com"><strong>Open hamiyami.com ↗</strong></a> &nbsp; · &nbsp; <a href="https://github.com/Farazhaghgoo/hamiYami"><strong>Explore the code ↗</strong></a>
+</p>
 
 <table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Farazhaghgoo/curseek"><img src="assets/curseek.svg" width="100%" alt="curseek — multiplayer hide-and-seek. A generated maze where a hider cursor carries a small light and a red seeker closes in. Open repository."></a>
+<p>Hide-and-seek for mouse cursors in a dark maze. Server-run rooms over WebSocket, predicted movement, wall-clipped light, perks and curses, bots for solo play.</p>
+<p><sub>TypeScript · Node.js · WebSocket · esbuild · Docker</sub></p>
+<a href="https://github.com/Farazhaghgoo/curseek"><strong>Explore curseek ↗</strong></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Farazhaghgoo/portfolio"><img src="assets/portfolio.svg" width="100%" alt="Portfolio — portfolio, archive and lab. A command line typing whoami. Open repository."></a>
+<p>Portfolio, archive and lab in one site. A professional layer you can read in 20 seconds, with a command line, signals and a hidden log underneath.</p>
+<p><sub>Next.js 16 · React 19 · TypeScript · Tailwind CSS 4</sub></p>
+<a href="https://github.com/Farazhaghgoo/portfolio"><strong>Explore the portfolio ↗</strong></a>
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/Farazhaghgoo/whomst"><img src="assets/whomst.svg" width="100%" alt="Whomst — personality engine. Open repository."></a>
@@ -87,16 +122,33 @@
 </tr>
 </table>
 
+<a id="ship-log"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-shiplog.svg">
+  <img src="assets/section-shiplog-light.svg" width="100%" alt="03 — The ship log">
+</picture>
+
+<a href="https://github.com/Farazhaghgoo?tab=repositories">
+  <img src="assets/shiplog.svg" width="100%" alt="Ship log: Faraz’s latest public commits, commits per repository over the last 90 days, and public code by language. Snapshot date is printed in the image.">
+</a>
+
+<p align="center"><sub>Real commit messages from public repositories, at most four per project, refreshed by the included workflow.</sub></p>
+
 <a id="toolkit"></a>
-<img src="assets/section-toolkit.svg" width="100%" alt="03 — My toolkit">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-toolkit.svg">
+  <img src="assets/section-toolkit-light.svg" width="100%" alt="04 — My toolkit">
+</picture>
 
 <p align="center">
-  <img src="assets/skill-icons.svg" width="88%" alt="React, TypeScript, Next.js, Tailwind CSS, PostgreSQL, Supabase, Prisma, Redis, Vite, Git, GitHub and Vitest">
+  <img src="assets/skill-icons.svg" width="92%" alt="React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Supabase, Prisma, Redis, Cloudflare, Docker, Vite, Vitest, Git and GitHub">
 </p>
 
 <p align="center">
   <strong>Web</strong> / React + Next.js &nbsp; · &nbsp; <strong>Mobile</strong> / React Native + Expo<br>
-  <strong>Data</strong> / PostgreSQL + Supabase &nbsp; · &nbsp; <strong>Motion</strong> / GSAP + Framer Motion
+  <strong>Data</strong> / PostgreSQL + Supabase &nbsp; · &nbsp; <strong>Motion</strong> / GSAP + Framer Motion<br>
+  <strong>Realtime</strong> / Node.js + WebSocket &nbsp; · &nbsp; <strong>Edge</strong> / Cloudflare Workers<br>
+  <strong>Testing</strong> / Vitest + Playwright
 </p>
 
 <details>
@@ -106,10 +158,13 @@
 </details>
 
 <a id="public-activity"></a>
-<img src="assets/section-activity.svg" width="100%" alt="04 — The public signal">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-activity.svg">
+  <img src="assets/section-activity-light.svg" width="100%" alt="05 — The public signal">
+</picture>
 
 <a href="https://github.com/Farazhaghgoo?tab=overview">
-  <img src="assets/activity.svg" width="100%" alt="Faraz’s public GitHub contribution landscape. Each column is a week, each block a day; height follows GitHub’s activity level. Snapshot date is printed in the image.">
+  <img src="assets/activity.svg" width="100%" alt="Faraz’s public GitHub contribution landscape. Each column is a week, each block a day; height follows GitHub’s activity level. The busiest day is flagged. Snapshot date is printed in the image.">
 </a>
 
 <p align="center"><sub>A public snapshot, refreshed by the included workflow. My professional work happens in private repositories too.</sub></p>
