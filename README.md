@@ -35,6 +35,7 @@
 </p>
 
 <a id="professional-work"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/section-professional.svg">
   <img src="assets/section-professional-light.svg" width="100%" alt="01 — Building at inRebus">
@@ -62,6 +63,7 @@
 <sub>Professional covers are original abstract artwork. Implementation details and source code remain private.</sub>
 
 <a id="independent-projects"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/section-projects.svg">
   <img src="assets/section-projects-light.svg" width="100%" alt="02 — Independent experiments">
@@ -123,6 +125,7 @@
 </table>
 
 <a id="ship-log"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/section-shiplog.svg">
   <img src="assets/section-shiplog-light.svg" width="100%" alt="03 — The ship log">
@@ -135,6 +138,7 @@
 <p align="center"><sub>Real commit messages from public repositories, at most four per project, refreshed by the included workflow.</sub></p>
 
 <a id="toolkit"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/section-toolkit.svg">
   <img src="assets/section-toolkit-light.svg" width="100%" alt="04 — My toolkit">
@@ -158,6 +162,7 @@
 </details>
 
 <a id="public-activity"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/section-activity.svg">
   <img src="assets/section-activity-light.svg" width="100%" alt="05 — The public signal">
