@@ -8,8 +8,8 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-09",
   "to": "2026-11-11",
-  "total": 954,
-  "public": 369,
+  "total": 966,
+  "public": 381,
   "private": 585,
   "active": 105,
   "streak": 7,
@@ -44,26 +44,26 @@
       "last": "2026-05-14"
     },
     {
-      "name": "financeApp",
-      "commits": 13,
-      "last": "2026-07-20"
+      "name": "nuts",
+      "commits": 21,
+      "last": "2026-11-11"
     }
   ],
   "feed": [
     {
       "date": "2026-11-11",
-      "repo": "no-new-tabs",
-      "message": "Write the README"
+      "repo": "nuts",
+      "message": "Release 1.3.1"
     },
     {
       "date": "2026-11-11",
-      "repo": "no-new-tabs",
-      "message": "Make the browser test click into the player iframe reliably"
+      "repo": "nuts",
+      "message": "Fix the animations not playing in tabs that were open before an update"
     },
     {
       "date": "2026-11-11",
-      "repo": "no-new-tabs",
-      "message": "Draw the toolbar badge as soon as the worker starts"
+      "repo": "nuts",
+      "message": "Release 1.3.0"
     },
     {
       "date": "2026-11-10",
@@ -2336,8 +2336,8 @@
     },
     {
       "date": "2026-11-11",
-      "level": 2,
-      "total": 13,
+      "level": 4,
+      "total": 25,
       "private": 0
     }
   ]
