@@ -2,12 +2,12 @@ name: Refresh profile artwork
 
 on:
   schedule:
-    - cron: '23 6 * * *'
+    - cron: '23 */6 * * *'   # every 6 hours
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'scripts/**'
+      - 'scripts/update_contributions.py'
       - '.github/workflows/profile-activity.yml'
 
 permissions:
@@ -20,31 +20,25 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v5
 
-      # Both scripts use only the Python standard library and read public data.
-      # Each keeps the previous image if its source looks wrong, so one failing
-      # does not stop the other from refreshing.
-      - name: Render contribution landscape
-        run: python3 scripts/update_activity.py
-
-      - name: Render commit stream
-        if: always()
+      # Reads only public data: the contribution calendar, the public commit search and
+      # the profile's day view. It keeps the previous image if anything looks wrong.
+      - name: Render control room
         env:
           GITHUB_TOKEN: ${{ github.token }}   # only raises the public search rate limit; it cannot read private repositories
-        run: python3 scripts/update_shiplog.py
+        run: python3 scripts/update_contributions.py
 
       - name: Commit refreshed artwork
-        if: always()
         run: |
-          git add assets/activity.svg assets/activity.json assets/shiplog.svg assets/shiplog.json
+          git add assets/contributions.svg assets/contributions.json
           if git diff --cached --quiet; then
             echo "Nothing changed."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Refresh public activity artwork"
+          git commit -m "Refresh control room"
           git push
