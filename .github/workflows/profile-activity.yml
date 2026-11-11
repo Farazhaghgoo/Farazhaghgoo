@@ -2,7 +2,7 @@ name: Refresh profile artwork
 
 on:
   schedule:
-    - cron: '23 */6 * * *'   # every 6 hours
+    - cron: '17 * * * *'     # every hour, off the top of the hour when GitHub is busiest
   workflow_dispatch:
   push:
     branches: [main]
