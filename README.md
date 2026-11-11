@@ -29,17 +29,13 @@
 <p align="center">
   <a href="#professional-work">Professional work</a> &nbsp; / &nbsp;
   <a href="#independent-projects">Projects</a> &nbsp; / &nbsp;
-  <a href="#ship-log">Ship log</a> &nbsp; / &nbsp;
+  <a href="#commits">Commits</a> &nbsp; / &nbsp;
   <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
   <a href="#public-activity">Activity</a>
 </p>
 
 <a id="professional-work"></a>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-professional.svg">
-  <img src="assets/section-professional-light.svg" width="100%" alt="01 — Building at inRebus">
-</picture>
+<img src="assets/section-professional.svg" width="100%" alt="01 — Building at inRebus">
 
 <table>
 <tr>
@@ -63,11 +59,7 @@
 <sub>Professional covers are original abstract artwork. Implementation details and source code remain private.</sub>
 
 <a id="independent-projects"></a>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-projects.svg">
-  <img src="assets/section-projects-light.svg" width="100%" alt="02 — Independent experiments">
-</picture>
+<img src="assets/section-projects.svg" width="100%" alt="02 — Independent experiments">
 
 <a href="https://hamiyami.com"><img src="assets/hamiyami.svg" width="100%" alt="HamiYami — dinner, cooked nearby, ready for pickup. Latest build, live at hamiyami.com. The phone shows the real demo home page scrolling."></a>
 
@@ -124,25 +116,17 @@
 </tr>
 </table>
 
-<a id="ship-log"></a>
+<a id="commits"></a>
+<img src="assets/section-shiplog.svg" width="100%" alt="03 — The commit stream">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-shiplog.svg">
-  <img src="assets/section-shiplog-light.svg" width="100%" alt="03 — The ship log">
-</picture>
-
-<a href="https://github.com/Farazhaghgoo?tab=repositories">
-  <img src="assets/shiplog.svg" width="100%" alt="Ship log: Faraz’s latest public commits, commits per repository over the last 90 days, and public code by language. Snapshot date is printed in the image.">
+<a href="https://github.com/Farazhaghgoo?tab=overview">
+  <img src="assets/shiplog.svg" width="100%" alt="Commit stream: Faraz’s contributions over the last 90 days, split into public and private. A scrolling feed shows the latest public commits per project, with private work as masked weekly counts, above a bar for every day. Snapshot date is printed in the image.">
 </a>
 
-<p align="center"><sub>Real commit messages from public repositories, at most four per project, refreshed by the included workflow.</sub></p>
+<p align="center"><sub>Public commits appear by name. Private work appears as counts only, the same numbers GitHub shows on this profile. Refreshed daily by the included workflow.</sub></p>
 
 <a id="toolkit"></a>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-toolkit.svg">
-  <img src="assets/section-toolkit-light.svg" width="100%" alt="04 — My toolkit">
-</picture>
+<img src="assets/section-toolkit.svg" width="100%" alt="04 — My toolkit">
 
 <p align="center">
   <img src="assets/skill-icons.svg" width="92%" alt="React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Supabase, Prisma, Redis, Cloudflare, Docker, Vite, Vitest, Git and GitHub">
@@ -162,17 +146,13 @@
 </details>
 
 <a id="public-activity"></a>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-activity.svg">
-  <img src="assets/section-activity-light.svg" width="100%" alt="05 — The public signal">
-</picture>
+<img src="assets/section-activity.svg" width="100%" alt="05 — The public signal">
 
 <a href="https://github.com/Farazhaghgoo?tab=overview">
   <img src="assets/activity.svg" width="100%" alt="Faraz’s public GitHub contribution landscape. Each column is a week, each block a day; height follows GitHub’s activity level. The busiest day is flagged. Snapshot date is printed in the image.">
 </a>
 
-<p align="center"><sub>A public snapshot, refreshed by the included workflow. My professional work happens in private repositories too.</sub></p>
+<p align="center"><sub>Every day of the last year, with private work included as counts. Refreshed daily by the included workflow.</sub></p>
 
 <a href="https://www.linkedin.com/in/faraz-haghgoo-6b4a64252"><img src="assets/footer.svg" width="100%" alt="Build something worth using. Let’s connect on LinkedIn."></a>
 

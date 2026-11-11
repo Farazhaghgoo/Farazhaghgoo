@@ -418,24 +418,24 @@ def marquee():
 
 
 SECTIONS = [('01', 'BUILDING AT INREBUS', 'professional'), ('02', 'INDEPENDENT EXPERIMENTS', 'projects'),
-            ('03', 'THE SHIP LOG', 'shiplog'), ('04', 'MY TOOLKIT', 'toolkit'), ('05', 'THE PUBLIC SIGNAL', 'activity')]
+            ('03', 'THE COMMIT STREAM', 'shiplog'), ('04', 'MY TOOLKIT', 'toolkit'), ('05', 'THE PUBLIC SIGNAL', 'activity')]
 
 
 def sections():
-    """Section labels on a transparent background, one per GitHub colour scheme.
-
-    README.md picks between them with <picture> and prefers-color-scheme.
-    """
+    """Section labels as dark bars, the same in both GitHub themes, with a dot running along the rule."""
     for num, title, slug in SECTIONS:
-        for suffix, ink, rule in (('', CREAM, LINE), ('-light', '#1F2328', '#D1D9E0')):
-            svg = (
-                '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="56" viewBox="0 0 800 56" role="img" aria-labelledby="t">'
-                f'<title id="t">{num} — {title}</title>'
-                + text(0, 36, num, ORANGE if not suffix else '#D9480F', 21, weight=700)
-                + text(55, 36, title, ink, 22, SANS, 700, -0.5)
-                + f'<path d="M430 30L800 30" stroke="{rule}" stroke-width="1" fill="none"/></svg>'
-            )
-            (OUT / f'section-{slug}{suffix}.svg').write_text(svg, encoding='utf-8')
+        svg = (
+            '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="56" viewBox="0 0 800 56" role="img" aria-labelledby="t">'
+            f'<title id="t">{num} — {title}</title>'
+            f'<style>@keyframes run{{0%{{transform:translateX(0);opacity:0}}8%,88%{{opacity:1}}100%{{transform:translateX(326px);opacity:0}}}}'
+            f'.run{{opacity:0;animation:run 4.5s ease-in-out infinite}}{RM}</style>'
+            f'<rect x=".5" y=".5" width="799" height="55" rx="12" fill="{BG}" stroke="{LINE}"/>'
+            + text(22, 36, num, ORANGE, 21, weight=700)
+            + text(76, 36, title, CREAM, 22, SANS, 700, -0.5)
+            + f'<path d="M452 28H778" stroke="{LINE}" stroke-width="1" fill="none"/>'
+            + f'<circle class="run" cx="452" cy="28" r="3" fill="{ORANGE}"/></svg>'
+        )
+        (OUT / f'section-{slug}.svg').write_text(svg, encoding='utf-8')
 
 
 if __name__ == '__main__':

@@ -30,10 +30,10 @@ jobs:
       - name: Render contribution landscape
         run: python3 scripts/update_activity.py
 
-      - name: Render ship log
+      - name: Render commit stream
         if: always()
         env:
-          GITHUB_TOKEN: ${{ github.token }}   # only raises the public API rate limit
+          GITHUB_TOKEN: ${{ github.token }}   # only raises the public search rate limit; it cannot read private repositories
         run: python3 scripts/update_shiplog.py
 
       - name: Commit refreshed artwork
