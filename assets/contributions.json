@@ -8,8 +8,8 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-09",
   "to": "2026-11-12",
-  "total": 968,
-  "public": 383,
+  "total": 978,
+  "public": 393,
   "private": 585,
   "active": 106,
   "streak": 7,
@@ -45,11 +45,31 @@
     },
     {
       "name": "nuts",
-      "commits": 22,
+      "commits": 23,
       "last": "2026-11-12"
     }
   ],
   "feed": [
+    {
+      "date": "2026-11-12",
+      "repo": "charger-drama",
+      "message": "README: link the download to the latest release"
+    },
+    {
+      "date": "2026-11-12",
+      "repo": "charger-drama",
+      "message": "Add launch tracing for troubleshooting"
+    },
+    {
+      "date": "2026-11-12",
+      "repo": "charger-drama",
+      "message": "Remove the PowerShell version, update README"
+    },
+    {
+      "date": "2026-11-12",
+      "repo": "nuts",
+      "message": "Release 1.3.2"
+    },
     {
       "date": "2026-11-12",
       "repo": "nuts",
@@ -59,11 +79,6 @@
       "date": "2026-11-11",
       "repo": "nuts",
       "message": "Release 1.3.1"
-    },
-    {
-      "date": "2026-11-11",
-      "repo": "nuts",
-      "message": "Fix the animations not playing in tabs that were open before an update"
     },
     {
       "date": "2026-11-10",
@@ -114,21 +129,6 @@
       "date": "2026-10-19",
       "repo": "curseek",
       "message": "Add perks, curses and coins, and steer with the mouse via Tab"
-    },
-    {
-      "date": "2026-10-19",
-      "repo": "curseek",
-      "message": "Keep the hunt clock full at the moment of release"
-    },
-    {
-      "date": "2026-10-13",
-      "repo": "vibeassist",
-      "message": "feat: Refuse leaked passwords at sign-up and password reset"
-    },
-    {
-      "date": "2026-10-13",
-      "repo": "vibeassist",
-      "message": "perf: Index the remaining foreign keys in public"
     }
   ],
   "days": [
@@ -2342,8 +2342,8 @@
     },
     {
       "date": "2026-11-12",
-      "level": 1,
-      "total": 2,
+      "level": 2,
+      "total": 12,
       "private": 0
     }
   ]
