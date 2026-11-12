@@ -37,14 +37,17 @@ LIGHT_DAYS = 14            # a project's status light is on if it had work this 
 UA = 'profile-control-room-renderer'
 
 BG, BAR, PANEL, LINE, MUTED, CREAM = '#0B0E14', '#161B24', '#111722', '#29313C', '#939BA8', '#F3EFE5'
-GREEN, RED = '#39D353', '#FF4D4D'
-PUBLIC = PRIVATE = GREEN      # public and private share a colour; a lock marks what is private
+PUBLIC, PRIVATE, AMBER, TEAL = '#FF642D', '#C6FF00', '#FFC857', '#7CE0C3'
 MONO = 'Consolas,monospace'
+# Each project keeps the accent colour of its cover; anything new cycles through the fallback list.
+REPO_COLORS = {'hamiYami': '#FF7A5C', 'EXAMassist': '#7CE0C3', 'vibeassist': '#F29BD4', 'curseek': '#FF5C7A',
+               'portfolio': '#FFC857', 'whomst': '#FF642D', 'financeApp': '#E6FF7A', 'VeloCity': '#90DFFF', 'CVai': '#B8A6FF'}
+FALLBACK = ['#9DB5FF', '#FF9B5E', '#9DB58F', '#F3EFE5']
 # Product names for repositories whose name differs from what the profile calls them.
 DISPLAY = {'EXAMassist': 'UniExamer', 'vibeassist': 'VibeAssist', 'hamiYami': 'HamiYami'}
 MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
-# Heat ramp for GitHub's activity levels 1–4, in the same colour as the readouts.
-RAMP = ['#0E4429', '#006D32', '#26A641', RED]   # GitHub's greens, and red for the busiest days
+# The year grid uses GitHub's own greens for activity levels 1–4, public and private alike.
+RAMP = ['#0E4429', '#006D32', '#26A641', '#39D353']
 
 
 # ───────────────────────── data ─────────────────────────
@@ -124,11 +127,15 @@ def private_on(day):
     return int(match[1].replace(',', '')) if match else 0
 
 
-def collect(today, previous):
-    # 1. Official totals per day: the profile's own contribution calendar.
+def read_calendar():
+    """The profile's own contribution calendar: one request, and the only one when nothing changed."""
     parser = Calendar()
     parser.feed(fetch(f'{WEB}/users/{USER}/contributions', {'Accept': 'text/html'}))
-    calendar = parser.days()
+    return parser.days()
+
+
+def collect(today, previous, calendar):
+    # 1. Official totals per day: the profile's own contribution calendar.
     window = [d['date'] for d in calendar]
 
     # 2. Public commits by this account, in 30-day slices so no slice can hit the search cap.
@@ -300,6 +307,11 @@ def render(data, snapshot):
             s += f'<circle cx="{sx}" cy="{sy}" r="3" fill="{LINE}"/>'
         return s + t(x + 28, y + 40, label, 20, color, extra=' letter-spacing="2"')
 
+    order = list(dict.fromkeys([r['name'] for r in data['repos']] + [r['repo'] for r in data['feed'] if 'repo' in r]))
+
+    def color_for(repo):
+        return REPO_COLORS.get(repo) or FALLBACK[order.index(repo) % len(FALLBACK)]
+
     def name_of(repo):
         return DISPLAY.get(repo, repo)
 
@@ -321,20 +333,20 @@ def render(data, snapshot):
     body += panel(24, 84, 580, 260, 'TOTAL', CREAM)
     n = max(3, len(str(total)))
     big = min(160, 330 / (0.72 * n - 0.16))
-    body += seven_seg('t', 70, 314 - big, total, n, big, GREEN, css)
+    body += seven_seg('t', 70, 314 - big, total, n, big, AMBER, css)
     n = max(3, len(str(public)), len(str(private)))
     small = min(62, 140 / (0.72 * n - 0.16))
-    body += (t(430, 124, 'PUBLIC', 20, CREAM, extra=' letter-spacing="2"') + seven_seg('p', 440, 140, public, n, small, CREAM, css)
-             + lock(438, 237, PRIVATE) + t(456, 244, 'PRIVATE', 20, CREAM, extra=' letter-spacing="2"')
-             + seven_seg('q', 440, 258, private, n, small, CREAM, css))
+    body += (t(430, 124, 'PUBLIC', 20, PUBLIC, extra=' letter-spacing="2"') + seven_seg('p', 440, 140, public, n, small, PUBLIC, css)
+             + lock(438, 237, PRIVATE) + t(456, 244, 'PRIVATE', 20, PRIVATE, extra=' letter-spacing="2"')
+             + seven_seg('q', 440, 258, private, n, small, PRIVATE, css))
 
     # ── Panel 2: a gauge for active days, and a status light per project.
-    body += panel(616, 84, 560, 260, 'ACTIVE DAYS', GREEN)
+    body += panel(616, 84, 560, 260, 'ACTIVE DAYS', TEAL)
     cx, cy, R = 752, 268, 100
     frac = data['active'] / len(days)
     px, py = cx - R * math.cos(math.pi * frac), cy - R * math.sin(math.pi * frac)
     body += f'<path d="M{cx - R} {cy}A{R} {R} 0 0 1 {cx + R} {cy}" fill="none" stroke="#1D2531" stroke-width="18"/>'
-    body += f'<path class="arc" d="M{cx - R} {cy}A{R} {R} 0 0 1 {px:.1f} {py:.1f}" pathLength="1" stroke-dasharray="1" fill="none" stroke="{GREEN}" stroke-width="18"/>'
+    body += f'<path class="arc" d="M{cx - R} {cy}A{R} {R} 0 0 1 {px:.1f} {py:.1f}" pathLength="1" stroke-dasharray="1" fill="none" stroke="{TEAL}" stroke-width="18"/>'
     for k in range(11):
         a = math.pi * k / 10
         r1, r2 = R + 16, R + (28 if k % 5 == 0 else 22)
@@ -344,14 +356,14 @@ def render(data, snapshot):
     body += (f'<g transform="translate({cx},{cy})"><g class="needle"><path d="M0 -4L-{R - 10} 0L0 4Z" fill="{CREAM}"/></g>'
              f'<circle r="10" fill="{CREAM}"/><circle r="4" fill="{PANEL}"/></g>')
     places = len(str(len(days)))
-    body += seven_seg('a', cx - digits_width(places, 40) / 2 - 24, 286, data['active'], places, 40, GREEN, css)
+    body += seven_seg('a', cx - digits_width(places, 40) / 2 - 24, 286, data['active'], places, 40, TEAL, css)
     body += t(cx + 38, 322, f'/{len(days)}', 22)
     css.append(f'@keyframes needle{{0%,{BOOT[0]}%{{transform:rotate(0deg)}}{BOOT[1]}%,{HOLD_END}%{{transform:rotate({turn:.1f}deg)}}100%{{transform:rotate(0deg)}}}}'
                f'.needle{{transform:rotate({turn:.1f}deg);animation:needle {CYCLE}s cubic-bezier(.3,1.35,.5,1) infinite}}'
                f'@keyframes arc{{0%,{BOOT[0]}%{{stroke-dashoffset:1}}{BOOT[1]}%,{HOLD_END}%{{stroke-dashoffset:0}}100%{{stroke-dashoffset:1}}}}'
                f'.arc{{animation:arc {CYCLE}s ease-out infinite}}')
 
-    rows = [(name_of(r['name']).upper(), r['commits'], GREEN, r['last'], False) for r in data['repos'][:3]]
+    rows = [(name_of(r['name']).upper(), r['commits'], color_for(r['name']), r['last'], False) for r in data['repos'][:3]]
     if private:
         rows.append(('PRIVATE', private, PRIVATE, max(d['date'] for d in days if d['private']), True))
     rows.sort(key=lambda r: -r[1])
@@ -369,7 +381,7 @@ def render(data, snapshot):
     # ── Panel 3: every day of the year, as on the profile's own calendar, coloured by who saw the work.
     body += panel(24, 360, 1152, 250, 'EVERY DAY')
     best = data['best']
-    body += (t(250, 400, f'STREAK {data["streak"]}', 20, CREAM) + t(440, 400, f'BEST {stamp(best["date"])} · {best["total"]}', 20, RED)
+    body += (t(250, 400, f'STREAK {data["streak"]}', 20, CREAM) + t(440, 400, f'BEST {stamp(best["date"])} · {best["total"]}', 20, CREAM)
              + t(938, 401, 'LESS', 18, extra=' text-anchor="end"')
              + ''.join(f'<rect x="{950 + k * 26}" y="386" width="18" height="18" rx="3" fill="{c}"/>' for k, c in enumerate(['#161D28'] + RAMP))
              + t(1084, 401, 'MORE', 18))
@@ -392,7 +404,7 @@ def render(data, snapshot):
                 body += t(round(gx + week * pitch, 1), gy - 12, MONTHS[date.month - 1], 18)
                 labelled = week
             fill = RAMP[d['level'] - 1] if d['level'] else '#161D28'
-            hot = ' class="hot"' if d['level'] == 4 else ''
+            hot = ' class="hot"' if d['level'] == 4 else ''     # the busiest days glow
             col += (f'<rect{hot} x="{gx + week * pitch:.1f}" y="{gy + row * pitch:.1f}" width="{cell:.1f}" height="{cell:.1f}" rx="3" fill="{fill}">'
                     f'<title>{d["date"]}: {d["total"]} contributions, {d["private"]} private</title></rect>')
         grid += f'<g class="wk" style="animation-delay:{week * 0.06:.2f}s">{col}</g>'
@@ -403,7 +415,7 @@ def render(data, snapshot):
     body += f'<rect class="scan" x="-3" y="{gy - 6}" width="4" height="{7 * pitch + 8:.1f}" rx="2" fill="{CREAM}"/>'
     span = (gx, gx + weeks * pitch)
     css.append('@keyframes wk{0%,12%,100%{opacity:1}5%{opacity:.45}}.wk{animation:wk 8s ease-in-out infinite}'
-               '@keyframes hot{50%{opacity:.55}}.hot{filter:url(#glow);animation:hot 1.8s ease-in-out infinite}'
+               '@keyframes hot{50%{opacity:.6}}.hot{filter:url(#glow);animation:hot 1.8s ease-in-out infinite}'
                '@keyframes today{50%{opacity:.2}}.today{animation:today 1.4s ease-in-out infinite}'
                f'@keyframes scan{{0%{{transform:translateX({span[0]:.0f}px);opacity:0}}3%{{opacity:.8}}55%{{transform:translateX({span[1]:.0f}px);opacity:.8}}58%,100%{{transform:translateX({span[1]:.0f}px);opacity:0}}}}'
                '.scan{opacity:0;animation:scan 8s linear infinite}')
@@ -417,7 +429,7 @@ def render(data, snapshot):
         rows_svg += f'<g transform="translate(0,{i * rh})">'
         if 'private' in row:
             n = row['private']
-            rows_svg += lock(12, 20, PRIVATE, 1.15) + t(32, 30, 'PRIVATE', 22, CREAM, 700)
+            rows_svg += lock(12, 20, PRIVATE, 1.15) + t(32, 30, 'PRIVATE', 22, PRIVATE, 700)
             x, seed = 230, sum(map(ord, row['date']))
             for k in range(4):
                 w = 60 + (seed * (k + 3) * 7) % 110
@@ -425,7 +437,7 @@ def render(data, snapshot):
                 x += w + 10
             rows_svg += t(x + 12, 30, f'{n} contribution{"" if n == 1 else "s"}', 22, CREAM)
         else:
-            col = GREEN
+            col = color_for(row['repo'])
             rows_svg += (f'<circle cx="12" cy="23" r="7" fill="{col}"/>' + t(32, 30, clip(name_of(row['repo']), 12), 22, col, 700)
                          + t(230, 30, clip(row['message'], 58), 22, CREAM))
         rows_svg += t(fw, 30, stamp(row['date'], row.get('from')), 20, extra=' text-anchor="end"')
@@ -447,7 +459,7 @@ def render(data, snapshot):
         '<defs>'
         '<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3.5" result="b"/>'
         '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
-        f'<linearGradient id="beam"><stop stop-color="{GREEN}" stop-opacity="0"/><stop offset="1" stop-color="{GREEN}"/></linearGradient>'
+        f'<linearGradient id="beam"><stop stop-color="{PUBLIC}" stop-opacity="0"/><stop offset=".5" stop-color="{PUBLIC}"/><stop offset="1" stop-color="{PRIVATE}"/></linearGradient>'
         f'<linearGradient id="ft" x1="0" y1="0" x2="0" y2="1"><stop stop-color="{PANEL}"/><stop offset="1" stop-color="{PANEL}" stop-opacity="0"/></linearGradient>'
         f'<linearGradient id="fb" x1="0" y1="0" x2="0" y2="1"><stop stop-color="{PANEL}" stop-opacity="0"/><stop offset="1" stop-color="{PANEL}"/></linearGradient>'
         f'<clipPath id="card"><rect width="{W}" height="{H}" rx="16"/></clipPath>'
@@ -466,6 +478,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--input', type=Path, help='Render from an existing contributions.json instead of reading GitHub')
     p.add_argument('--seed', type=Path, help='An older snapshot whose private counts can be reused')
+    p.add_argument('--force', action='store_true', help='Redraw even if the data has not changed (after a design change)')
     p.add_argument('--output-dir', type=Path, default=Path(__file__).resolve().parents[1] / 'assets')
     args = p.parse_args()
     target = args.output_dir / 'contributions.json'
@@ -477,8 +490,14 @@ def main():
         data, snapshot = {k: stored[k] for k in KEYS}, stored['snapshot']
     else:
         today = dt.datetime.now(dt.timezone.utc).date()
-        data, snapshot = collect(today, previous), today.isoformat()
-        if previous and all(previous.get(k) == data[k] for k in KEYS) and previous.get('snapshot') == snapshot:
+        calendar = read_calendar()
+        # Runs every few minutes: if the calendar has not moved since the last snapshot today, stop after one request.
+        if (not args.force and previous and previous.get('snapshot') == today.isoformat()
+                and [(d['date'], d['total']) for d in previous['days']] == [(c['date'], c['count']) for c in calendar]):
+            print('Calendar unchanged; nothing to do.')
+            return
+        data, snapshot = collect(today, previous, calendar), today.isoformat()
+        if not args.force and previous and all(previous.get(k) == data[k] for k in KEYS) and previous.get('snapshot') == snapshot:
             print('Control room unchanged; keeping the previous snapshot.')
             return
     args.output_dir.mkdir(parents=True, exist_ok=True)
