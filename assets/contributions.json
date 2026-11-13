@@ -4,14 +4,14 @@
     "https://api.github.com/search/commits",
     "https://github.com/Farazhaghgoo?tab=overview"
   ],
-  "snapshot": "2026-11-12",
+  "snapshot": "2026-11-13",
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-09",
-  "to": "2026-11-12",
-  "total": 978,
-  "public": 393,
+  "to": "2026-11-13",
+  "total": 980,
+  "public": 395,
   "private": 585,
-  "active": 106,
+  "active": 107,
   "streak": 7,
   "best": {
     "date": "2026-07-29",
@@ -20,8 +20,8 @@
   "repos": [
     {
       "name": "EXAMassist",
-      "commits": 157,
-      "last": "2026-11-10"
+      "commits": 159,
+      "last": "2026-11-13"
     },
     {
       "name": "hamiYami",
@@ -50,6 +50,16 @@
     }
   ],
   "feed": [
+    {
+      "date": "2026-11-13",
+      "repo": "EXAMassist",
+      "message": "Give shared lessons one canonical address and keep page titles within 60 characters"
+    },
+    {
+      "date": "2026-11-13",
+      "repo": "EXAMassist",
+      "message": "Move @swc/core to 1.16.22, whose native addon loads on Windows"
+    },
     {
       "date": "2026-11-12",
       "repo": "charger-drama",
@@ -84,16 +94,6 @@
       "date": "2026-11-10",
       "repo": "EXAMassist",
       "message": "Add TOLC-E and TOLC-F study courses"
-    },
-    {
-      "date": "2026-11-10",
-      "repo": "EXAMassist",
-      "message": "Add the free TOLC-I engineering admission course"
-    },
-    {
-      "date": "2026-11-10",
-      "repo": "EXAMassist",
-      "message": "Typeset maths in lesson objectives and example, trap and check titles"
     },
     {
       "from": "2026-11-07",
@@ -2344,6 +2344,12 @@
       "date": "2026-11-12",
       "level": 2,
       "total": 12,
+      "private": 0
+    },
+    {
+      "date": "2026-11-13",
+      "level": 1,
+      "total": 2,
       "private": 0
     }
   ]
