@@ -4,10 +4,10 @@
     "https://api.github.com/search/commits",
     "https://github.com/Farazhaghgoo?tab=overview"
   ],
-  "snapshot": "2026-11-14",
+  "snapshot": "2026-11-15",
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
-  "from": "2025-11-09",
-  "to": "2026-11-14",
+  "from": "2025-11-16",
+  "to": "2026-11-15",
   "total": 981,
   "public": 395,
   "private": 586,
@@ -132,48 +132,6 @@
     }
   ],
   "days": [
-    {
-      "date": "2025-11-09",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-10",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-11",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-12",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-13",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-14",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-15",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
     {
       "date": "2025-11-16",
       "level": 0,
@@ -2357,6 +2315,12 @@
       "level": 1,
       "total": 1,
       "private": 1
+    },
+    {
+      "date": "2026-11-15",
+      "level": 0,
+      "total": 0,
+      "private": 0
     }
   ]
 }
