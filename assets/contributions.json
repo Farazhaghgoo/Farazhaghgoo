@@ -8,9 +8,9 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-16",
   "to": "2026-11-16",
-  "total": 981,
+  "total": 990,
   "public": 395,
-  "private": 586,
+  "private": 595,
   "active": 108,
   "streak": 7,
   "best": {
@@ -19,19 +19,9 @@
   },
   "repos": [
     {
-      "name": "EXAMassist",
-      "commits": 159,
-      "last": "2026-11-13"
-    },
-    {
       "name": "hamiYami",
       "commits": 41,
       "last": "2026-10-26"
-    },
-    {
-      "name": "vibeassist",
-      "commits": 38,
-      "last": "2026-10-13"
     },
     {
       "name": "curseek",
@@ -39,14 +29,24 @@
       "last": "2026-10-19"
     },
     {
-      "name": "inRebusED-redesign-website",
-      "commits": 30,
-      "last": "2026-05-14"
-    },
-    {
       "name": "nuts",
       "commits": 23,
       "last": "2026-11-12"
+    },
+    {
+      "name": "financeApp",
+      "commits": 13,
+      "last": "2026-07-20"
+    },
+    {
+      "name": "faketube",
+      "commits": 9,
+      "last": "2025-12-24"
+    },
+    {
+      "name": "VeloCity",
+      "commits": 7,
+      "last": "2026-04-29"
     }
   ],
   "feed": [
@@ -54,16 +54,6 @@
       "from": "2026-11-14",
       "private": 1,
       "date": "2026-11-14"
-    },
-    {
-      "date": "2026-11-13",
-      "repo": "EXAMassist",
-      "message": "Give shared lessons one canonical address and keep page titles within 60 characters"
-    },
-    {
-      "date": "2026-11-13",
-      "repo": "EXAMassist",
-      "message": "Move @swc/core to 1.16.22, whose native addon loads on Windows"
     },
     {
       "date": "2026-11-12",
@@ -96,13 +86,8 @@
       "message": "Release 1.3.1"
     },
     {
-      "date": "2026-11-10",
-      "repo": "EXAMassist",
-      "message": "Add TOLC-E and TOLC-F study courses"
-    },
-    {
       "from": "2026-11-07",
-      "private": 12,
+      "private": 21,
       "date": "2026-11-07"
     },
     {
@@ -129,6 +114,21 @@
       "date": "2026-10-19",
       "repo": "curseek",
       "message": "Expose hiders who touch a wall"
+    },
+    {
+      "date": "2026-10-19",
+      "repo": "curseek",
+      "message": "Add perks, curses and coins, and steer with the mouse via Tab"
+    },
+    {
+      "date": "2026-10-19",
+      "repo": "curseek",
+      "message": "Keep the hunt clock full at the moment of release"
+    },
+    {
+      "date": "2026-10-08",
+      "repo": "portfolio",
+      "message": "Bring back the original animated hero shapes"
     }
   ],
   "days": [
@@ -2270,9 +2270,9 @@
     },
     {
       "date": "2026-11-07",
-      "level": 2,
-      "total": 12,
-      "private": 12
+      "level": 3,
+      "total": 21,
+      "private": 21
     },
     {
       "date": "2026-11-08",
