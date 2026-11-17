@@ -8,10 +8,10 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-16",
   "to": "2026-11-17",
-  "total": 990,
-  "public": 395,
+  "total": 996,
+  "public": 401,
   "private": 595,
-  "active": 108,
+  "active": 109,
   "streak": 7,
   "best": {
     "date": "2026-07-29",
@@ -50,6 +50,21 @@
     }
   ],
   "feed": [
+    {
+      "date": "2026-11-17",
+      "repo": "clipmaxxing",
+      "message": "Stop ffmpeg on cancel and keep stuck calls from blocking the worker"
+    },
+    {
+      "date": "2026-11-17",
+      "repo": "clipmaxxing",
+      "message": "Delete rendered videos with their clip or project"
+    },
+    {
+      "date": "2026-11-17",
+      "repo": "clipmaxxing",
+      "message": "Refresh social tokens under one lock per account"
+    },
     {
       "from": "2026-11-14",
       "private": 1,
@@ -114,21 +129,6 @@
       "date": "2026-10-19",
       "repo": "curseek",
       "message": "Expose hiders who touch a wall"
-    },
-    {
-      "date": "2026-10-19",
-      "repo": "curseek",
-      "message": "Add perks, curses and coins, and steer with the mouse via Tab"
-    },
-    {
-      "date": "2026-10-19",
-      "repo": "curseek",
-      "message": "Keep the hunt clock full at the moment of release"
-    },
-    {
-      "date": "2026-10-08",
-      "repo": "portfolio",
-      "message": "Bring back the original animated hero shapes"
     }
   ],
   "days": [
@@ -2330,8 +2330,8 @@
     },
     {
       "date": "2026-11-17",
-      "level": 0,
-      "total": 0,
+      "level": 1,
+      "total": 6,
       "private": 0
     }
   ]
