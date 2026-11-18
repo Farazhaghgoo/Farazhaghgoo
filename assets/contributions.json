@@ -8,16 +8,21 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-16",
   "to": "2026-11-18",
-  "total": 1013,
-  "public": 418,
+  "total": 1176,
+  "public": 581,
   "private": 595,
   "active": 110,
   "streak": 7,
   "best": {
-    "date": "2026-07-29",
-    "total": 47
+    "date": "2026-09-27",
+    "total": 56
   },
   "repos": [
+    {
+      "name": "EXAMassist",
+      "commits": 161,
+      "last": "2026-11-18"
+    },
     {
       "name": "hamiYami",
       "commits": 41,
@@ -42,14 +47,19 @@
       "name": "financeApp",
       "commits": 13,
       "last": "2026-07-20"
-    },
-    {
-      "name": "faketube",
-      "commits": 9,
-      "last": "2025-12-24"
     }
   ],
   "feed": [
+    {
+      "date": "2026-11-18",
+      "repo": "EXAMassist",
+      "message": "Give English-only language copies of exam pages the English title"
+    },
+    {
+      "date": "2026-11-18",
+      "repo": "EXAMassist",
+      "message": "Link every lesson from its exam page and each worked sample to its lesson"
+    },
     {
       "date": "2026-11-18",
       "repo": "clipmaxxing",
@@ -69,6 +79,11 @@
       "from": "2026-11-14",
       "private": 1,
       "date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-13",
+      "repo": "EXAMassist",
+      "message": "Give shared lessons one canonical address and keep page titles within 60 characters"
     },
     {
       "date": "2026-11-12",
@@ -114,21 +129,6 @@
       "date": "2026-10-26",
       "repo": "hamiYami",
       "message": "Document the story page"
-    },
-    {
-      "date": "2026-10-26",
-      "repo": "hamiYami",
-      "message": "Link the story page and test it"
-    },
-    {
-      "date": "2026-10-26",
-      "repo": "hamiYami",
-      "message": "Deploy to Cloudflare Workers on hamiyami.com"
-    },
-    {
-      "date": "2026-10-19",
-      "repo": "curseek",
-      "message": "Expose hiders who touch a wall"
     }
   ],
   "days": [
@@ -1106,7 +1106,7 @@
     },
     {
       "date": "2026-04-27",
-      "level": 3,
+      "level": 2,
       "total": 17,
       "private": 12
     },
@@ -1118,13 +1118,13 @@
     },
     {
       "date": "2026-04-29",
-      "level": 2,
+      "level": 1,
       "total": 12,
       "private": 7
     },
     {
       "date": "2026-04-30",
-      "level": 3,
+      "level": 2,
       "total": 22,
       "private": 17
     },
@@ -1148,7 +1148,7 @@
     },
     {
       "date": "2026-05-04",
-      "level": 2,
+      "level": 1,
       "total": 9,
       "private": 9
     },
@@ -1166,7 +1166,7 @@
     },
     {
       "date": "2026-05-07",
-      "level": 2,
+      "level": 1,
       "total": 9,
       "private": 4
     },
@@ -1196,7 +1196,7 @@
     },
     {
       "date": "2026-05-12",
-      "level": 3,
+      "level": 2,
       "total": 19,
       "private": 10
     },
@@ -1208,7 +1208,7 @@
     },
     {
       "date": "2026-05-14",
-      "level": 3,
+      "level": 2,
       "total": 20,
       "private": 19
     },
@@ -1232,13 +1232,13 @@
     },
     {
       "date": "2026-05-18",
-      "level": 2,
+      "level": 1,
       "total": 10,
       "private": 10
     },
     {
       "date": "2026-05-19",
-      "level": 2,
+      "level": 1,
       "total": 11,
       "private": 11
     },
@@ -1364,19 +1364,19 @@
     },
     {
       "date": "2026-06-09",
-      "level": 2,
+      "level": 1,
       "total": 9,
       "private": 9
     },
     {
       "date": "2026-06-10",
-      "level": 4,
+      "level": 2,
       "total": 26,
       "private": 26
     },
     {
       "date": "2026-06-11",
-      "level": 2,
+      "level": 1,
       "total": 12,
       "private": 12
     },
@@ -1412,13 +1412,13 @@
     },
     {
       "date": "2026-06-17",
-      "level": 2,
+      "level": 1,
       "total": 10,
       "private": 10
     },
     {
       "date": "2026-06-18",
-      "level": 3,
+      "level": 2,
       "total": 16,
       "private": 16
     },
@@ -1442,13 +1442,13 @@
     },
     {
       "date": "2026-06-22",
-      "level": 2,
+      "level": 1,
       "total": 10,
       "private": 10
     },
     {
       "date": "2026-06-23",
-      "level": 2,
+      "level": 1,
       "total": 11,
       "private": 11
     },
@@ -1508,7 +1508,7 @@
     },
     {
       "date": "2026-07-03",
-      "level": 2,
+      "level": 1,
       "total": 9,
       "private": 9
     },
@@ -1532,7 +1532,7 @@
     },
     {
       "date": "2026-07-07",
-      "level": 2,
+      "level": 1,
       "total": 10,
       "private": 10
     },
@@ -1544,13 +1544,13 @@
     },
     {
       "date": "2026-07-09",
-      "level": 2,
+      "level": 1,
       "total": 9,
       "private": 9
     },
     {
       "date": "2026-07-10",
-      "level": 2,
+      "level": 1,
       "total": 8,
       "private": 8
     },
@@ -1586,7 +1586,7 @@
     },
     {
       "date": "2026-07-16",
-      "level": 3,
+      "level": 2,
       "total": 19,
       "private": 6
     },
@@ -1658,7 +1658,7 @@
     },
     {
       "date": "2026-07-28",
-      "level": 2,
+      "level": 1,
       "total": 11,
       "private": 11
     },
@@ -1670,7 +1670,7 @@
     },
     {
       "date": "2026-07-30",
-      "level": 4,
+      "level": 2,
       "total": 23,
       "private": 23
     },
@@ -1700,7 +1700,7 @@
     },
     {
       "date": "2026-08-04",
-      "level": 4,
+      "level": 2,
       "total": 23,
       "private": 23
     },
@@ -1904,13 +1904,13 @@
     },
     {
       "date": "2026-09-07",
-      "level": 2,
+      "level": 1,
       "total": 13,
       "private": 13
     },
     {
       "date": "2026-09-08",
-      "level": 3,
+      "level": 2,
       "total": 21,
       "private": 21
     },
@@ -1952,13 +1952,13 @@
     },
     {
       "date": "2026-09-15",
-      "level": 3,
+      "level": 2,
       "total": 22,
       "private": 22
     },
     {
       "date": "2026-09-16",
-      "level": 2,
+      "level": 1,
       "total": 11,
       "private": 11
     },
@@ -2007,25 +2007,25 @@
     {
       "date": "2026-09-24",
       "level": 3,
-      "total": 18,
+      "total": 29,
       "private": 0
     },
     {
       "date": "2026-09-25",
       "level": 1,
-      "total": 1,
+      "total": 2,
       "private": 0
     },
     {
       "date": "2026-09-26",
       "level": 3,
-      "total": 18,
+      "total": 36,
       "private": 0
     },
     {
       "date": "2026-09-27",
       "level": 4,
-      "total": 28,
+      "total": 56,
       "private": 0
     },
     {
@@ -2043,13 +2043,13 @@
     {
       "date": "2026-09-30",
       "level": 1,
-      "total": 4,
+      "total": 7,
       "private": 1
     },
     {
       "date": "2026-10-01",
       "level": 3,
-      "total": 19,
+      "total": 27,
       "private": 2
     },
     {
@@ -2072,8 +2072,8 @@
     },
     {
       "date": "2026-10-05",
-      "level": 2,
-      "total": 8,
+      "level": 1,
+      "total": 12,
       "private": 1
     },
     {
@@ -2085,12 +2085,12 @@
     {
       "date": "2026-10-07",
       "level": 1,
-      "total": 7,
+      "total": 12,
       "private": 1
     },
     {
       "date": "2026-10-08",
-      "level": 2,
+      "level": 1,
       "total": 10,
       "private": 0
     },
@@ -2132,7 +2132,7 @@
     },
     {
       "date": "2026-10-15",
-      "level": 4,
+      "level": 3,
       "total": 30,
       "private": 0
     },
@@ -2174,13 +2174,13 @@
     },
     {
       "date": "2026-10-22",
-      "level": 3,
+      "level": 2,
       "total": 22,
       "private": 0
     },
     {
       "date": "2026-10-23",
-      "level": 2,
+      "level": 1,
       "total": 10,
       "private": 0
     },
@@ -2198,32 +2198,32 @@
     },
     {
       "date": "2026-10-26",
-      "level": 2,
+      "level": 1,
       "total": 10,
       "private": 0
     },
     {
       "date": "2026-10-27",
-      "level": 1,
-      "total": 5,
+      "level": 2,
+      "total": 18,
       "private": 0
     },
     {
       "date": "2026-10-28",
       "level": 1,
-      "total": 4,
+      "total": 7,
       "private": 1
     },
     {
       "date": "2026-10-29",
       "level": 4,
-      "total": 26,
+      "total": 52,
       "private": 0
     },
     {
       "date": "2026-10-30",
       "level": 1,
-      "total": 3,
+      "total": 6,
       "private": 0
     },
     {
@@ -2241,19 +2241,19 @@
     {
       "date": "2026-11-02",
       "level": 2,
-      "total": 13,
+      "total": 26,
       "private": 0
     },
     {
       "date": "2026-11-03",
       "level": 1,
-      "total": 4,
+      "total": 8,
       "private": 0
     },
     {
       "date": "2026-11-04",
       "level": 1,
-      "total": 2,
+      "total": 4,
       "private": 0
     },
     {
@@ -2270,7 +2270,7 @@
     },
     {
       "date": "2026-11-07",
-      "level": 3,
+      "level": 2,
       "total": 21,
       "private": 21
     },
@@ -2283,31 +2283,31 @@
     {
       "date": "2026-11-09",
       "level": 1,
-      "total": 6,
+      "total": 12,
       "private": 0
     },
     {
       "date": "2026-11-10",
       "level": 2,
-      "total": 10,
+      "total": 19,
       "private": 0
     },
     {
       "date": "2026-11-11",
-      "level": 4,
+      "level": 2,
       "total": 25,
       "private": 0
     },
     {
       "date": "2026-11-12",
-      "level": 2,
+      "level": 1,
       "total": 12,
       "private": 0
     },
     {
       "date": "2026-11-13",
       "level": 1,
-      "total": 2,
+      "total": 4,
       "private": 0
     },
     {
@@ -2336,8 +2336,8 @@
     },
     {
       "date": "2026-11-18",
-      "level": 2,
-      "total": 8,
+      "level": 1,
+      "total": 12,
       "private": 0
     }
   ]
