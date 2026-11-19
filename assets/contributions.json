@@ -8,8 +8,8 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-16",
   "to": "2026-11-19",
-  "total": 1178,
-  "public": 583,
+  "total": 1246,
+  "public": 651,
   "private": 595,
   "active": 110,
   "streak": 7,
@@ -29,24 +29,24 @@
       "last": "2026-10-26"
     },
     {
+      "name": "vibeassist",
+      "commits": 38,
+      "last": "2026-10-13"
+    },
+    {
       "name": "curseek",
       "commits": 32,
       "last": "2026-10-19"
     },
     {
+      "name": "inRebusED-redesign-website",
+      "commits": 30,
+      "last": "2026-05-14"
+    },
+    {
       "name": "nuts",
       "commits": 23,
       "last": "2026-11-12"
-    },
-    {
-      "name": "clipmaxxing",
-      "commits": 22,
-      "last": "2026-11-18"
-    },
-    {
-      "name": "financeApp",
-      "commits": 13,
-      "last": "2026-07-20"
     }
   ],
   "feed": [
@@ -1161,19 +1161,19 @@
     {
       "date": "2026-05-06",
       "level": 1,
-      "total": 4,
+      "total": 6,
       "private": 2
     },
     {
       "date": "2026-05-07",
       "level": 1,
-      "total": 9,
+      "total": 13,
       "private": 4
     },
     {
       "date": "2026-05-08",
       "level": 1,
-      "total": 2,
+      "total": 3,
       "private": 1
     },
     {
@@ -1191,25 +1191,25 @@
     {
       "date": "2026-05-11",
       "level": 2,
-      "total": 15,
+      "total": 21,
       "private": 9
     },
     {
       "date": "2026-05-12",
-      "level": 2,
-      "total": 19,
+      "level": 3,
+      "total": 28,
       "private": 10
     },
     {
       "date": "2026-05-13",
       "level": 2,
-      "total": 15,
+      "total": 22,
       "private": 8
     },
     {
       "date": "2026-05-14",
       "level": 2,
-      "total": 20,
+      "total": 21,
       "private": 19
     },
     {
@@ -2049,7 +2049,7 @@
     {
       "date": "2026-10-01",
       "level": 3,
-      "total": 27,
+      "total": 36,
       "private": 2
     },
     {
@@ -2072,8 +2072,8 @@
     },
     {
       "date": "2026-10-05",
-      "level": 1,
-      "total": 12,
+      "level": 2,
+      "total": 15,
       "private": 1
     },
     {
@@ -2085,13 +2085,13 @@
     {
       "date": "2026-10-07",
       "level": 1,
-      "total": 12,
+      "total": 13,
       "private": 1
     },
     {
       "date": "2026-10-08",
-      "level": 1,
-      "total": 10,
+      "level": 2,
+      "total": 17,
       "private": 0
     },
     {
@@ -2114,14 +2114,14 @@
     },
     {
       "date": "2026-10-12",
-      "level": 2,
-      "total": 14,
+      "level": 3,
+      "total": 28,
       "private": 0
     },
     {
       "date": "2026-10-13",
       "level": 1,
-      "total": 4,
+      "total": 8,
       "private": 0
     },
     {
