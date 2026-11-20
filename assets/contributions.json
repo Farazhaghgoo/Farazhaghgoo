@@ -4,14 +4,14 @@
     "https://api.github.com/search/commits",
     "https://github.com/Farazhaghgoo?tab=overview"
   ],
-  "snapshot": "2026-11-19",
+  "snapshot": "2026-11-20",
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-16",
-  "to": "2026-11-19",
-  "total": 1258,
-  "public": 663,
+  "to": "2026-11-20",
+  "total": 1270,
+  "public": 675,
   "private": 595,
-  "active": 111,
+  "active": 112,
   "streak": 7,
   "best": {
     "date": "2026-09-27",
@@ -44,26 +44,26 @@
       "last": "2026-05-14"
     },
     {
-      "name": "nuts",
+      "name": "fliwyee",
       "commits": 23,
-      "last": "2026-11-12"
+      "last": "2026-11-20"
     }
   ],
   "feed": [
     {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "repo": "fliwyee",
-      "message": "README: v0.2 (sessions, Ask AI, new file layout)"
+      "message": "README: v0.4.1 (other websites)"
     },
     {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "repo": "fliwyee",
-      "message": "Test page: fake AI chat box, two-line auto subtitles, new APIs"
+      "message": "Test pages: fake other website (browser- or page-drawn subtitles)"
     },
     {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "repo": "fliwyee",
-      "message": "Side panel: Ask AI, Show file, editable prompts"
+      "message": "v0.4.1: Ctrl+Shift+X adds Fliwyee to any website"
     },
     {
       "date": "2026-11-18",
@@ -2342,6 +2342,12 @@
     },
     {
       "date": "2026-11-19",
+      "level": 1,
+      "total": 12,
+      "private": 0
+    },
+    {
+      "date": "2026-11-20",
       "level": 1,
       "total": 12,
       "private": 0
