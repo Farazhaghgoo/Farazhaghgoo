@@ -4,14 +4,14 @@
     "https://api.github.com/search/commits",
     "https://github.com/Farazhaghgoo?tab=overview"
   ],
-  "snapshot": "2026-11-21",
+  "snapshot": "2026-11-22",
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
-  "from": "2025-11-16",
-  "to": "2026-11-21",
-  "total": 1288,
-  "public": 675,
+  "from": "2025-11-23",
+  "to": "2026-11-22",
+  "total": 1289,
+  "public": 676,
   "private": 613,
-  "active": 113,
+  "active": 114,
   "streak": 7,
   "best": {
     "date": "2026-09-27",
@@ -45,11 +45,16 @@
     },
     {
       "name": "fliwyee",
-      "commits": 24,
-      "last": "2026-11-20"
+      "commits": 25,
+      "last": "2026-11-22"
     }
   ],
   "feed": [
+    {
+      "date": "2026-11-22",
+      "repo": "fliwyee",
+      "message": "v0.5.1: replay from the real sentence start, pause on capture, simpler tags"
+    },
     {
       "from": "2026-11-18",
       "private": 18,
@@ -64,11 +69,6 @@
       "date": "2026-11-20",
       "repo": "fliwyee",
       "message": "README: v0.4.1 (other websites)"
-    },
-    {
-      "date": "2026-11-20",
-      "repo": "fliwyee",
-      "message": "Test pages: fake other website (browser- or page-drawn subtitles)"
     },
     {
       "date": "2026-11-18",
@@ -132,48 +132,6 @@
     }
   ],
   "days": [
-    {
-      "date": "2025-11-16",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-17",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-18",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-19",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-20",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-21",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
-    {
-      "date": "2025-11-22",
-      "level": 0,
-      "total": 0,
-      "private": 0
-    },
     {
       "date": "2025-11-23",
       "level": 0,
@@ -2357,6 +2315,12 @@
       "level": 1,
       "total": 9,
       "private": 9
+    },
+    {
+      "date": "2026-11-22",
+      "level": 1,
+      "total": 1,
+      "private": 0
     }
   ]
 }
