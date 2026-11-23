@@ -8,9 +8,9 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-23",
   "to": "2026-11-23",
-  "total": 1293,
-  "public": 676,
-  "private": 617,
+  "total": 1307,
+  "public": 683,
+  "private": 624,
   "active": 115,
   "streak": 7,
   "best": {
@@ -20,8 +20,8 @@
   "repos": [
     {
       "name": "EXAMassist",
-      "commits": 161,
-      "last": "2026-11-18"
+      "commits": 168,
+      "last": "2026-11-23"
     },
     {
       "name": "hamiYami",
@@ -51,8 +51,13 @@
   ],
   "feed": [
     {
+      "date": "2026-11-23",
+      "repo": "EXAMassist",
+      "message": "Add interactive PoliTo Physics II course for Computer Engineering"
+    },
+    {
       "from": "2026-11-23",
-      "private": 4,
+      "private": 11,
       "date": "2026-11-23"
     },
     {
@@ -72,18 +77,18 @@
     },
     {
       "date": "2026-11-20",
+      "repo": "EXAMassist",
+      "message": "Keep the home page text readable over the moving drawing"
+    },
+    {
+      "date": "2026-11-20",
+      "repo": "EXAMassist",
+      "message": "Fill the home page drawing with mathematics and numbers"
+    },
+    {
+      "date": "2026-11-20",
       "repo": "fliwyee",
       "message": "README: v0.4.1 (other websites)"
-    },
-    {
-      "date": "2026-11-18",
-      "repo": "EXAMassist",
-      "message": "Give English-only language copies of exam pages the English title"
-    },
-    {
-      "date": "2026-11-18",
-      "repo": "EXAMassist",
-      "message": "Link every lesson from its exam page and each worked sample to its lesson"
     },
     {
       "date": "2026-11-18",
@@ -104,11 +109,6 @@
       "from": "2026-11-14",
       "private": 1,
       "date": "2026-11-14"
-    },
-    {
-      "date": "2026-11-13",
-      "repo": "EXAMassist",
-      "message": "Give shared lessons one canonical address and keep page titles within 60 characters"
     },
     {
       "date": "2026-11-12",
@@ -2301,13 +2301,13 @@
     {
       "date": "2026-11-19",
       "level": 2,
-      "total": 17,
+      "total": 20,
       "private": 5
     },
     {
       "date": "2026-11-20",
       "level": 2,
-      "total": 16,
+      "total": 18,
       "private": 2
     },
     {
@@ -2325,8 +2325,8 @@
     {
       "date": "2026-11-23",
       "level": 1,
-      "total": 4,
-      "private": 4
+      "total": 13,
+      "private": 11
     }
   ]
 }
