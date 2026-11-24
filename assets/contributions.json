@@ -8,11 +8,11 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-23",
   "to": "2026-11-24",
-  "total": 1307,
-  "public": 683,
-  "private": 624,
-  "active": 115,
-  "streak": 7,
+  "total": 1313,
+  "public": 684,
+  "private": 629,
+  "active": 116,
+  "streak": 8,
   "best": {
     "date": "2026-09-27",
     "total": 56
@@ -20,8 +20,8 @@
   "repos": [
     {
       "name": "EXAMassist",
-      "commits": 168,
-      "last": "2026-11-23"
+      "commits": 169,
+      "last": "2026-11-24"
     },
     {
       "name": "hamiYami",
@@ -51,14 +51,19 @@
   ],
   "feed": [
     {
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "repo": "EXAMassist",
-      "message": "Add interactive PoliTo Physics II course for Computer Engineering"
+      "message": "Show real question counts on the start pages instead of NaN"
     },
     {
       "from": "2026-11-23",
-      "private": 11,
-      "date": "2026-11-23"
+      "private": 16,
+      "date": "2026-11-24"
+    },
+    {
+      "date": "2026-11-23",
+      "repo": "EXAMassist",
+      "message": "Add interactive PoliTo Physics II course for Computer Engineering"
     },
     {
       "date": "2026-11-22",
@@ -79,11 +84,6 @@
       "date": "2026-11-20",
       "repo": "EXAMassist",
       "message": "Keep the home page text readable over the moving drawing"
-    },
-    {
-      "date": "2026-11-20",
-      "repo": "EXAMassist",
-      "message": "Fill the home page drawing with mathematics and numbers"
     },
     {
       "date": "2026-11-20",
@@ -2330,9 +2330,9 @@
     },
     {
       "date": "2026-11-24",
-      "level": 0,
-      "total": 0,
-      "private": 0
+      "level": 1,
+      "total": 6,
+      "private": 5
     }
   ]
 }
