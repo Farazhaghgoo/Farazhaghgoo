@@ -8,8 +8,8 @@
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-23",
   "to": "2026-11-26",
-  "total": 1339,
-  "public": 685,
+  "total": 1342,
+  "public": 688,
   "private": 654,
   "active": 118,
   "streak": 10,
@@ -50,6 +50,21 @@
     }
   ],
   "feed": [
+    {
+      "date": "2026-11-26",
+      "repo": "automatic-checker-L4ALL",
+      "message": "Add 1-click browser upload screen for non-technical office staff"
+    },
+    {
+      "date": "2026-11-26",
+      "repo": "automatic-checker-L4ALL",
+      "message": "Support descriptive Italian Moodle 5.x course shortnames and add Dussmann config template"
+    },
+    {
+      "date": "2026-11-26",
+      "repo": "automatic-checker-L4ALL",
+      "message": "Initial release of L4ALL HR-to-Moodle learner import app"
+    },
     {
       "from": "2026-11-23",
       "private": 41,
@@ -114,21 +129,6 @@
       "date": "2026-11-12",
       "repo": "charger-drama",
       "message": "README: link the download to the latest release"
-    },
-    {
-      "date": "2026-11-12",
-      "repo": "charger-drama",
-      "message": "Add launch tracing for troubleshooting"
-    },
-    {
-      "date": "2026-11-12",
-      "repo": "charger-drama",
-      "message": "Remove the PowerShell version, update README"
-    },
-    {
-      "date": "2026-11-12",
-      "repo": "nuts",
-      "message": "Release 1.3.2"
     }
   ],
   "days": [
@@ -2343,7 +2343,7 @@
     {
       "date": "2026-11-26",
       "level": 1,
-      "total": 3,
+      "total": 6,
       "private": 2
     }
   ]
