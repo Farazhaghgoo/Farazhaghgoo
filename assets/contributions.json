@@ -4,15 +4,15 @@
     "https://api.github.com/search/commits",
     "https://github.com/Farazhaghgoo?tab=overview"
   ],
-  "snapshot": "2026-11-27",
+  "snapshot": "2026-11-28",
   "scope": "GitHub contribution calendar totals; public commits by name; private contributions as daily counts only, as shared on the public profile",
   "from": "2025-11-23",
-  "to": "2026-11-27",
-  "total": 1350,
+  "to": "2026-11-28",
+  "total": 1369,
   "public": 688,
-  "private": 662,
-  "active": 119,
-  "streak": 11,
+  "private": 681,
+  "active": 120,
+  "streak": 12,
   "best": {
     "date": "2026-09-27",
     "total": 56
@@ -52,8 +52,8 @@
   "feed": [
     {
       "from": "2026-11-23",
-      "private": 49,
-      "date": "2026-11-27"
+      "private": 68,
+      "date": "2026-11-28"
     },
     {
       "date": "2026-11-26",
@@ -2348,9 +2348,15 @@
     },
     {
       "date": "2026-11-27",
+      "level": 2,
+      "total": 17,
+      "private": 17
+    },
+    {
+      "date": "2026-11-28",
       "level": 1,
-      "total": 8,
-      "private": 8
+      "total": 10,
+      "private": 10
     }
   ]
 }
